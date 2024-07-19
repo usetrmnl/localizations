@@ -1,0 +1,203 @@
+de:
+
+  # global, logged out, and auth-related
+  add: Hinzufügen
+  add_new: Neu hinzufügen
+  already_have_account: Ich besitze bereits ein Konto # signup form cta
+  back: Zurück
+  buy_now: Jetzt kaufen
+  cancel: Abbrechen
+  change_password: Passwort ändern
+  charge_level: Level laden
+  charged: geladen
+  close: Schließen
+  confirm_change_password: Passwort ändern
+  confirm_password: Passwort wiederholen
+  create_an_account: Konto erstellen # login form cta
+  days: Tage
+  delete: Löschen
+  device_id: Gerätekennung
+  edit: Ändern
+  email_address: EMail Adresse
+  first_name: Vorname
+  forgot_password: Passwort vergessen # login form link
+  forgot_password_title: Neues Passwort vergeben # heading on /password/new
+  get_started: Lass uns loslegen!
+  identify: Anmeldung
+  keep_me_signed_in: Angemeldet bleiben
+  knowledge_base: Fragen und Antworten
+  last_name: Nachname
+  login: Anmelden
+  log_out: Abmelden
+  minimum_characters: Zeichen Minimum # ex: 8 characters minimum
+  mins: Minuten # 'minutes' abbreviation
+  new_password: Neues Passwort
+  password: Passwort
+  reset_password: Passwort zurücksetzen
+  sign_in: Anmelden # login form cta
+  sign_up: Registrieren # logged out navigation
+  save: Speichern
+  update: Aktualisieren
+  view: Ansicht
+  welcome: Willkommen # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Konto
+      tagline: Verwalte deine Kontoeinstellungen
+      email_address: EMail Adresse
+      email_address_hint: Wird für die TRMNL Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
+      first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
+      last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
+      password_hint: Wird verwendet um Dein TRMNL Konto zu schützen.
+      session: Sitzung
+      session_hint: Angemeldet als %{user}
+      time_zone: Zeitzone
+      time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
+  dashboard:
+    index:
+      title: Dashboard
+      last_7_days: Letzte 7 Tage
+      last_30_days: Letzte 30 Tage
+      last_90_days: Letzte 90 Tage
+      today: Heute
+      yesterday: Gestern
+    health: # partial (widget)
+      bad: Erweiterungen mit Einschränkungen
+      good: Voll funktionsfähige Erweiterungen
+      next_steps: Wir werden Sie über Änderungen informieren
+    news: # partial (widget)
+      title: Neuigkeiten
+    playlists: # partial (widget)
+      title: Wiedergabelisten
+      cta: Wiedergabelisten anzeigen
+      pieces_of_content_displayed: Angezeigte Inhalte
+    plugins: # partial (widget)
+      title: Erweiterungen
+      cta: Erweiterungen anzeigen
+      connected: Verbunden
+      new_and_popular: Neu und populär
+    time_saved: # partial (widget)
+      title: Eingesparte Zeit
+      cta: Mehr erfahren
+
+    # toast messages
+    update:
+      success: Konto erfolgreich aktualisiert
+  devices:
+    edit:
+      back_to_devices: Zurück zur Geräteübersicht
+      battery_consumption: Batterieverbrauch
+      battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus von 22:00 bis 06:00 Uhr.
+      device_name: Gerätename
+      device_name_hint: Wir verwenden den Gerätenamen und die TRMNL Benutzeroberfläche zu personalisieren.
+      edit_device: Gerät bearbeiten
+      identify: Identifizierung
+      identify_device: Gerät identifizieren
+      identify_device_hint: Durch Klick auf folgende Schaltfläche werden auf dem Gerät Informationen zur Identifikation angezeigt.
+      mirror: Spiegelung
+      mirror_device: Gespiegeltes Gerät
+      mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
+      sleep_mode: Schlafmodus
+      sleep_mode_hint: Aktualisierungsrate anpassen um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
+      unlink: Entkoppeln
+      unlink_device: Gerät entkoppeln
+      unlink_device_hint: Verbindung zu einem TRMNL Gerät entfernen um es sicher zu verkaufen oder weiterzugeben.
+      visibility: Sichtbarkeit
+      visibility_hint: Macht das TRMNL öffentlich sichtbar.
+      your_device: Dein TRMNL
+    index:
+      title: Geräte
+      tagline: Deine TRMNL Geräte
+      add_device_modal_title: Neues Gerät hinzufügen
+      add_first_device: Beginne mit dem Hinzufügen Deines ersten Gerätes!
+
+    # toast messages
+    associate:
+      error: Fehler beim Verknüpfen des Gerätes
+      success: Gerät erfolgreich verknüpft
+    dissociate:
+      error: Fehler beim Trennen des Gerätes
+      success: Gerät erfolgreich getrennt
+    identify:
+      error: Fehler beim Indentifizieren des Gerätes
+      success: Geräteidentifizierung angefordert
+    mirror:
+      error: Fehler beim Spiegeln des Gerätes
+      error_not_shared: Die angegebene Gerätekennung ist nicht öffentlich
+      error_oneself: Das eigene Gerät kann nicht gespiegelt werden
+      success: Gerät %{friendly_id} erfolgreich gespiegelt
+    switch:
+      error: Fehler beim Wechseln des Gerätes
+      success: Gerät erfolgreich gewechselt
+    update:
+      error: Fehler beim Aktualisieren des Gerätes
+      success: "Einstellungen von %{device} erfolgreich aktualisiert"
+  playlists:
+    index:
+      title: Wiedergabeliste
+      tagline: Was soll auf dem Gerät angezeigt werden?
+      add_first_device_cta: Beginne mit dem __Hinzufügen__ des ersten TRMNL Gerätes!
+      add_to_playlist: Zu Wiedergabeliste hinzufügen
+      create_first_playlist_cta: Erste Erweiterung __verbinden__ um eine Wiedergabeliste zu starten!
+    playlist: # partial (single item)
+      delete: Soll diese Wiedergabeliste wirklich entfernen werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
+      displayed_now: Wird angezeigt
+      not_displayed_yet: Wird nicht angezeigt
+      remove_from_playlist: Von Wiedergabeliste entfernen
+
+    # toast messages
+    create:
+      error: Fehler beim Aktualisieren der Wiedergabeliste
+      success: Wiedergabeliste aktualisiert
+    destroy:
+      error: Fehler beim Entfernen von der Wiedergabeliste
+      success: Erweiterung von der Wiedergabeliste entfernt
+    update:
+      success: Wiedergabereihenfolge aktualisiert
+  plugins:
+    index:
+      title: Erweiterungen
+      tagline: Was soll auf dem TRMNL angezeigt werden?
+      available: Verfügbar
+      connected: Verbunden
+    search: # partial (search box)
+      placeholder: Erweiterungen suchen
+  plugin_settings:
+    active: Aktiv
+    delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden kann sie einfach von der Wiedergabeliste entfernt werden.
+    inactive: Inaktiv
+    no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden.
+    form:
+      active_hint: Anzeigen oder Verbergen der Erweiterung auf dem Gerät
+      back_to_plugin: Zurück zu %{plugin}
+      back_to_plugins: Zurück zu den Erweiterungen
+      connect_with: Verbinden mit %{plugin}
+      force_refresh: Aktualisierung erzwingen
+      force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
+      force_refresh_click_here: Hier klicken
+      force_refresh_click_here_hint: um die Anzeige sofort zu aktualisieren
+      learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
+      link_oauth: Konto verknüpfen
+      link_oauth_hint: Um fortzufahren, muss eine Kontoverknüpfung mit %{plugin} hergestellt werden
+      multiple_instances_hint: Diese Erweiterung unterstützte mehrere Instanzen.
+      name: Name
+      name_hint: Vergib einen Namen für eine einfache Unterscheidung
+      plugin_uuid: UUID der Erweiterung
+      plugin_uuid_hint: Verwende diese Kennung für Anfragen an die Webhook API.
+      preview: Vorschau - Dein Gerät wird aktualisierte Daten anzeigen
+      refresh_rate: Aktualisierungsrate
+      refresh_rate_hint: Definiere wie oft die Erweiterung Daten aktualisiert
+      refreshed: Aktualisiert
+      visit_docs: Dokumentation anzeigen
+
+    # toast messages
+    create:
+      success: Erweiterung erstellt und hinzugefügt zur
+      playlist: Wiedergabeliste
+    destroy:
+      success: Erweiterung entfernt
+    handle_canceled_consent: Zustimmung wurde nicht erteilt. Bitte erneut versuchen.
+    update:
+      success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
