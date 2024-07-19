@@ -1,0 +1,2 @@
+# localizations
+web app translations
