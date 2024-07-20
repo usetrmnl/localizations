@@ -57,3 +57,18 @@ accessible at `/plugin_settings?keyname={{plugin}}` while logged in.
 accessible at `/plugin_settings/:id/edit` while logged in.
 
 ![plugin settings form view](/../master/support/plugin_settings_form.png?raw=true "plugin settings form view")
+
+#### devices (list)
+accessible at `/devices` while logged in.
+
+![devices list view](/../master/support/devices_list.png?raw=true "devices list view")
+
+#### devices (add new)
+accessible at `/devices` while logged in, click Add new.
+
+![add device](/../master/support/devices_add.png?raw=true "add new device view")
+
+#### devices (form)
+accessible at `/devices/:id/edit` while logged in.
+
+![devices form view](/../master/support/devices_form.png?raw=true "devices form view")
