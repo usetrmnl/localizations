@@ -72,3 +72,13 @@ accessible at `/devices` while logged in, click Add new.
 accessible at `/devices/:id/edit` while logged in.
 
 ![devices form view](/../master/support/devices_form.png?raw=true "devices form view")
+
+#### playlists
+accessible at `/playlists` while logged in.
+
+![playlists view](/../master/support/playlists.png?raw=true "playlists view")
+
+#### account
+accessible at `/account` while logged in.
+
+![account view](/../master/support/account.png?raw=true "account view")
