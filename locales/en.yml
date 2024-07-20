@@ -55,6 +55,10 @@ en:
       session_hint: You're logged in as %{user}
       time_zone: Time Zone
       time_zone_hint: Determines refresh rates and device sleep time.
+
+    # toast messages
+    update:
+      success: Profile updated successfully
   dashboard:
     index:
       title: Dashboard
@@ -81,10 +85,6 @@ en:
     time_saved: # partial (widget)
       title: Time saved
       cta: Read about
-
-    # toast messages
-    update:
-      success: Profile updated successfully
   devices:
     edit:
       back_to_devices: Back to Devices

@@ -18,7 +18,7 @@ de:
   delete: Löschen
   device_id: Gerätekennung
   edit: Ändern
-  email_address: EMail Adresse
+  email_address: Email Adresse
   first_name: Vorname
   forgot_password: Passwort vergessen # login form link
   forgot_password_title: Neues Passwort vergeben # heading on /password/new
@@ -46,7 +46,7 @@ de:
     index:
       title: Konto
       tagline: Verwalte deine Kontoeinstellungen
-      email_address: EMail Adresse
+      email_address: Email Adresse
       email_address_hint: Wird für die TRMNL Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
@@ -55,6 +55,10 @@ de:
       session_hint: Angemeldet als %{user}
       time_zone: Zeitzone
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
+
+    # toast messages
+    update:
+      success: Konto erfolgreich aktualisiert
   dashboard:
     index:
       title: Dashboard
@@ -81,10 +85,6 @@ de:
     time_saved: # partial (widget)
       title: Eingesparte Zeit
       cta: Mehr erfahren
-
-    # toast messages
-    update:
-      success: Konto erfolgreich aktualisiert
   devices:
     edit:
       back_to_devices: Zurück zur Geräteübersicht
@@ -168,7 +168,7 @@ de:
     active: Aktiv
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden kann sie einfach von der Wiedergabeliste entfernt werden.
     inactive: Inaktiv
-    no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden.
+    no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden. # empty state - should not appear
     form:
       active_hint: Anzeigen oder Verbergen der Erweiterung auf dem Gerät
       back_to_plugin: Zurück zu %{plugin}
