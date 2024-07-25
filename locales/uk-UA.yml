@@ -21,10 +21,10 @@ uk-UA:
   email_address: Адреса електронної пошти
   first_name: Ім'я
   forgot_password: Я забув мій пароль # login form link
-  forgot_password_title: Почнемо з початку # heading on /password/new # TODO: Maybe someone find a better translation. "Гайда знову"?
+  forgot_password_title: Отакої…Гайда знову # heading on /password/new
   get_started: Почнемо!
   identify: Ідентифікувати
-  keep_me_signed_in: Залишатися увійденим # TODO: Find a better translation
+  keep_me_signed_in: Залишатись у системі
   knowledge_base: База знань
   last_name: Прізвище
   login: Вхід # TODO: Check context, maybe be "Увійти" або "Логін"?
@@ -54,7 +54,7 @@ uk-UA:
       session: Сесія
       session_hint: Ви увійшли як %{user}
       time_zone: Часовий пояс
-      time_zone_hint: Визначає частоту оновлення та тривалість режиму сну пристрою.
+      time_zone_hint: Визначає частоту оновлення та розклад сну пристрою.
 
     # toast messages
     update:
@@ -98,13 +98,13 @@ uk-UA:
       identify_device_hint: Натисніть кнопку нижче, щоб показати екран на цьому пристрої, який допоможе його ідентифікувати.
       mirror: Відзеркалити
       mirror_device: Відзеркалити інший пристрій
-      mirror_device_hint: Надайте ідентифікатор спільного пристрою, щоб дзеркалити його плейлист. Ваш плейлист також буде відображатися. # TODO: Check the translation of "shareable"
+      mirror_device_hint: Надайте ID пристрою з увімкненим спільним доступом, щоб дзеркалити його плейлист. Ваш плейлист також буде відображатися.
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
       unlink: Відв'язати
       unlink_device: Відв'язати пристрій
       unlink_device_hint: Відв'язування пристрою TRMNL робить його безпечним для перепродажу або передачі іншій особі.
-      visibility: Видимість # TODO: "Спільний доступ"?
+      visibility: Спільний доступ
       visibility_hint: Зробіть ваш пристрій TRMNL доступним для віддзеркалення, змінивши налаштування нижче.
       your_device: Ваш TRMNL
     index:
@@ -125,7 +125,7 @@ uk-UA:
       success: Запит на ідентифікацію пристрою надіслано
     mirror:
       error: Помилка дзеркалення пристрою
-      error_not_shared: Вказаний ідентифікатор пристрою не доступний для спільного використання
+      error_not_shared: Вказаний ідентифікатор пристрою не доступний для спільного доступу
       error_oneself: Неможливо віддзеркалити власний пристрій
       success: Пристрій %{friendly_id} успішно віддзеркалено
     switch:
