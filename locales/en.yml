@@ -21,7 +21,7 @@ en:
   email_address: Email address
   first_name: First Name
   forgot_password: I forgot my password # login form link
-  forgot_password_title: Here we go again # heading on /password/new
+  forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Let's get you started!
   identify: Identify
   keep_me_signed_in: Keep me signed in
