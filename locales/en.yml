@@ -21,7 +21,7 @@ en:
   email_address: Email address
   first_name: First Name
   forgot_password: I forgot my password # login form link
-  forgot_password_title: Here we go again # heading on /password/new
+  forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Let's get you started!
   identify: Identify
   keep_me_signed_in: Keep me signed in
@@ -55,6 +55,10 @@ en:
       session_hint: You're logged in as %{user}
       time_zone: Time Zone
       time_zone_hint: Determines refresh rates and device sleep time.
+
+    # toast messages
+    update:
+      success: Profile updated successfully
   dashboard:
     index:
       title: Dashboard
@@ -81,10 +85,6 @@ en:
     time_saved: # partial (widget)
       title: Time saved
       cta: Read about
-
-    # toast messages
-    update:
-      success: Profile updated successfully
   devices:
     edit:
       back_to_devices: Back to Devices
@@ -168,7 +168,7 @@ en:
     active: Active
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
     inactive: Inactive
-    no_plugin_settings_found: No plugin settings found.
+    no_plugin_settings_found: No plugin settings found. # empty state - should not appear
     form:
       active_hint: Show or hide this plugin instance on your device
       back_to_plugin: Back to %{plugin}
