@@ -87,9 +87,13 @@ en:
       cta: Read about
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Back to Devices
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode from 10p to 6a.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the Developer add-on.
       device_name: Device Name
       device_name_hint: We use this to make the TRMNL interface more comfortable
       edit_device: Edit Device
