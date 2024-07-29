@@ -87,9 +87,13 @@ fr:
       cta: À propos
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Economisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise en veille entre 22:00 et 06:00.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the Developer add-on.
       device_name: Nom de l'appareil
       device_name_hint: Nous utilisons cela pour rendre l'interface de TRMNL plus agréable
       edit_device: Éditer l'appareil
@@ -166,7 +170,7 @@ fr:
       placeholder: Rechercher des extensions
   plugin_settings:
     active: Active
-    delete: Cela va entièrement supprimé les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist. 
+    delete: Cela va entièrement supprimé les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
     no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
     form:
@@ -194,7 +198,7 @@ fr:
 
     # toast messages
     create:
-      success: Extension créée et ajoutée à votre 
+      success: Extension créée et ajoutée à votre
       playlist: playlist
     destroy:
       success: Extension supprimée
