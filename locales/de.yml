@@ -106,6 +106,9 @@ de:
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate anpassen, um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Entkoppeln
       unlink_device: Gerät entkoppeln
       unlink_device_hint: Verbindung zu einem TRMNL Gerät entfernen, um es sicher zu verkaufen oder weiterzugeben.

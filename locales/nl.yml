@@ -105,6 +105,9 @@ nl:
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Ontkoppelen
       unlink_device: Apparaat ontkoppelen
       unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je het veilig verkopen of aan iemand anders geven.

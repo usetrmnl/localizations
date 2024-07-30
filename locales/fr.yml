@@ -105,6 +105,9 @@ fr:
       mirror_device_hint: Fournir a ID d'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Dissocier
       unlink_device: Dissocier l'appareil
       unlink_device_hint: Dissocier un appareil TRMNL permet de le revendre ou de le donner en toute sureté.

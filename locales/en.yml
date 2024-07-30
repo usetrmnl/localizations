@@ -105,6 +105,9 @@ en:
       mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Unlink
       unlink_device: Unlink Device
       unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
