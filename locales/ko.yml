@@ -201,7 +201,7 @@ ko:
 
     # toast messages
     create:
-      success: 플러그인이 생성되었습니다. 여기서 확인하세요:
+      success: "플러그인이 생성되었습니다. 여기서 확인하세요:"
       playlist: 플레이리스트
     destroy:
       success: 플러그인 삭제됨
