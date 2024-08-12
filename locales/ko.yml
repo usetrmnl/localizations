@@ -103,6 +103,8 @@ ko:
       mirror: 거울모드
       mirror_device: 다른 기기에 거울모드
       mirror_device_hint: 같은 플레이리스트를 띄우려면 (공유가능) 기기 ID를 알려주세요. 당신의 플레이리스트는 변함없이 보여질 것입니다.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: 절전 모드
       sleep_mode_hint: 당신의 집중력과 배터리 수명을 최적화하기 위해 새로 고침 비율을 조정합니다.
       special_function: 특별 기능

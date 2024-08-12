@@ -103,6 +103,8 @@ fr:
       mirror: Miroir
       mirror_device: Mettre en miroir avec un autre appareil
       mirror_device_hint: Fournir a ID d'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
       special_function: Fonction Spéciale
