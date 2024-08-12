@@ -1,0 +1,212 @@
+ja:
+
+  # global, logged out, and auth-related
+  add: 追加
+  add_new: 新規追加
+  already_have_account: すでにアカウントをお持ちです # signup form cta
+  back: 戻る
+  buy_now: 今すぐ購入
+  cancel: キャンセル
+  change_password: パスワード変更
+  charge_level: 充電状態
+  charged: 充電完了
+  close: 閉じる
+  confirm_change_password: パスワードを変更する
+  confirm_password: 新しいパスワードを確認
+  create_an_account: アカウントを作成する # login form cta
+  days: 日
+  delete: 削除
+  device_id: デバイスID
+  edit: 編集
+  email_address: メールアドレス
+  first_name: 名前
+  forgot_password: パスワードを忘れました # login form link
+  forgot_password_title: さあ、再スタートです # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  get_started: 始めましょう！
+  identify: 確認する
+  keep_me_signed_in: サインイン状態を維持する
+  knowledge_base: 説明書
+  last_name: 姓
+  login: ログイン
+  log_out: ログアウト
+  minimum_characters: 最小文字数 # ex: 8 characters minimum
+  mins: 分 # 'minutes' abbreviation
+  new_password: 新しいパスワード
+  password: パスワード
+  reset_password: パスワードをリセット
+  sign_in: サインインする # login form cta
+  sign_up: サインアップ # logged out navigation
+  save: 保存
+  update: 更新
+  view: 表示
+  welcome: ようこそ # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: マイアカウント
+      tagline: アカウント設定を管理する
+      email_address: メールアドレス
+      email_address_hint: TRMNLへのサインアップ時に使用し、システムメッセージを受信するメールアドレスです。
+      first_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
+      last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
+      password_hint: TRMNLアカウントを保護するために使用します。
+      session: セッション
+      session_hint: 現在、%{user}でログインしています。
+      time_zone: タイムゾーン（時間帯）
+      time_zone_hint: デバイスの更新頻度やスリープモードを決定するために使用します。
+
+    # toast messages
+    update:
+      success: プロフィール情報が更新されました。
+  dashboard:
+    index:
+      title: ダッシュボード
+      last_7_days: 過去7日間
+      last_30_days: 過去30日間
+      last_90_days: 過去90日間
+      today: 今日
+      yesterday: 昨日
+    health: # partial (widget)
+      bad: 現在、プラグインにエラーがあります
+      good: すべてのプラグインが正常です
+      next_steps: 変化があれば通知します
+    news: # partial (widget)
+      title: ニュース
+    playlists: # partial (widget)
+      title: プレイリスト
+      cta: プレイリストをもっと見る
+      pieces_of_content_displayed: 個のコンテンツが表示されています
+    plugins: # partial (widget)
+      title: プラグイン
+      cta: プラグインをもっと見る
+      connected: 接続済み
+      new_and_popular: 新着＆人気のプラグイン
+    time_saved: # partial (widget)
+      title: 節約した時間
+      cta: 詳しく見る
+  devices:
+    edit:
+      accepts_beta_firmware: 新しいファームウェアを受け入れる # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
+      back_to_devices: デバイス管理画面に戻る
+      battery_consumption: バッテリー消費
+      battery_consumption_hint: 夜10時から朝6時までデバイスをスリープモードに設定すると、バッテリー寿命を延ばすことができます。
+      developer_perks: 開発者向け特典 # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: 以下は、開発者オプションを追加した場合に利用可能です。
+      device_name: デバイス名
+      device_name_hint: TRMNLインターフェースをより快適に使用するためです。
+      edit_device: デバイスを編集
+      identify: 確認する
+      identify_device: デバイスを確認する
+      identify_device_hint: どのデバイスかを簡単に識別するために、以下のボタンを押してどの画面が表示されているか確認してください。
+      mirror: ミラーモード
+      mirror_device: 他のデバイスにミラーモードを適用する
+      mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      sleep_mode: スリープモード
+      sleep_mode_hint: 集中力とバッテリー寿命を最適化するために、更新頻度を調整します。
+      special_function: 特別機能
+      special_function_hint: デバイスの背面にあるボタンのダブルクリック機能を設定してください。
+      special_function_learn_more: 特別機能について詳しくは__こちら__をクリックしてください。
+      unlink: 接続解除
+      unlink_device: デバイス接続を解除する
+      unlink_device_hint: TRMNLデバイスの接続を解除すると、デバイスを再販したり贈ったりするときにより安全です。
+      visibility: 共有設定
+      visibility_hint: 以下の設定を使用して、TRMNLデバイスをミラーモードにすることができます。
+      your_device: あなたのTRMNL
+    index:
+      title: デバイス管理
+      tagline: あなたのTRMNLデバイス
+      add_device_modal_title: 新しいデバイスを追加
+      add_first_device: 始めるには最初のデバイスを追加してください！
+
+    # toast messages
+    associate:
+      error: デバイス接続エラー
+      success: デバイスが正常に接続されました
+    dissociate:
+      error: デバイス接続解除エラー
+      success: デバイスの接続が正常に解除されました
+    identify:
+      error: デバイス更新エラー
+      success: デバイスの確認が要求されました
+    mirror:
+      error: デバイスミラーモードエラー
+      error_not_shared: 提供されたデバイスIDが共有可能な状態ではありません
+      error_oneself: 自身にはミラーモードを適用できません
+      success: "%{friendly_id}デバイスが正常にミラーモードになりました"
+    switch:
+      error: デバイス切り替えエラー
+      success: デバイスが正常に切り替えられました
+    update:
+      error: デバイス更新エラー
+      success: "%{device}デバイスの設定が正常に更新されました"
+  playlists:
+    index:
+      title: プレイリスト
+      tagline: 画面に表示するものを選んでください
+      add_first_device_cta: 始めるには最初のTRMNLデバイスを__追加__してください！
+      add_to_playlist: プレイリストに追加
+      create_first_playlist_cta: プレイリストを作成するには最初のプラグインを__接続__してください！
+    playlist: # partial (single item)
+      delete: このプラグインを削除しますか？プラグインの接続は維持されますが、デバイスには表示されなくなります。
+      displayed_now: 今表示中
+      not_displayed_yet: まだ表示されていません
+      remove_from_playlist: プレイリストから削除
+
+    # toast messages
+    create:
+      error: プレイリストの更新に失敗しました
+      success: プレイリストが更新されました
+    destroy:
+      error: プレイリスト内のプラグイン削除エラー
+      success: プラグインがプレイリストから削除されました。
+    update:
+      success: 新しいプレイリストの順序が更新されました
+  plugins:
+    index:
+      title: プラグイン管理
+      tagline: TRMNLに何を表示しますか？
+      available: 利用可能なプラグイン
+      connected: 接続済み
+    search: # partial (search box)
+      placeholder: プラグインを検索
+  plugin_settings:
+    active: アクティブ
+    delete: プラグインの設定を完全に削除します。デバイスからプラグインを単に隠したいだけなら、プレイリストから削除してください。
+    inactive: 非アクティブ
+    no_plugin_settings_found: プラグインが見つかりません。 # empty state - should not appear
+    form:
+      active_hint: デバイスにこのプラグインインスタンスを表示または非表示にする
+      back_to_plugin: "%{plugin}に戻る"
+      back_to_plugins: プラグイン管理に戻る
+      connect_with: "%{plugin}を接続"
+      force_refresh: 強制リフレッシュ
+      force_refresh_hint: この機能はテスト目的です。乱用しないでください。
+      force_refresh_click_here: ここをクリック
+      force_refresh_click_here_hint: 即座に新しい画面を再生します
+      learn_more: このプラグインについてもっと知りたい場合は、ドキュメントをご参照ください
+      link_oauth: アカウント接続
+      link_oauth_hint: 続行する前に、この%{plugin}が提供する保護された認証手順に従ってください。
+      multiple_instances_hint: このプラグインは複数のインスタンスをサポートしています。
+      name: 名前
+      name_hint: 覚えやすい名前を付けてください
+      plugin_uuid: プラグイン UUID
+      plugin_uuid_hint: Webhook APIリクエストに使用します
+      preview: プレビュー - 実際のデータをデバイスに表示します
+      refresh_rate: リフレッシュ頻度
+      refresh_rate_hint: このプラグインインスタンスがどれくらい頻繁に新しいデータを取得するかを決定します
+      refreshed: リフレッシュ完了
+      visit_docs: ドキュメントを開く
+
+    # toast messages
+    create:
+      success: "プラグインが作成されました。こちらで確認してください:"
+      playlist: プレイリスト
+    destroy:
+      success: プラグインが削除されました
+    handle_canceled_consent: 同意がキャンセルされました。もう一度お試しください。
+    update:
+      success: プラグイン構成が正常に更新されました。
