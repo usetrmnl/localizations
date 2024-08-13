@@ -121,6 +121,10 @@ nl:
       tagline: Jouw TRMNL apparaten
       add_device_modal_title: Nieuw apparaat toevoegen
       add_first_device: Begin door jouw eerste apparaat toe te voegen!
+    new:
+      title: Nieuw apparaat toevoegen
+      description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
+      add_device: Nieuw apparaat toevoegen
 
     # toast messages
     associate:

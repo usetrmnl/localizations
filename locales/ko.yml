@@ -121,6 +121,10 @@ ko:
       tagline: 당신의 TRMNL 디바이스들
       add_device_modal_title: 새로 기기 추가하기
       add_first_device: 시작하려면 첫 디바이스를 추가하세요!
+    new:
+      title: 새 기기 추가하기
+      description: 새로운 TRMNL 기기를 계정에 추가하려면 기기 ID를 입력하세요.
+      add_device: 새 기기 추가
 
     # toast messages
     associate:

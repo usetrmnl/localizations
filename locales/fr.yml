@@ -121,6 +121,10 @@ fr:
       tagline: Vos appareils TRMNL
       add_device_modal_title: Ajouter un nouvel appareil
       add_first_device: Commencez en ajoutant votre premier appareil !
+    new:
+      title: Ajouter un nouvel appareil
+      description: Entrez votre ID d'appareil pour ajouter un nouveau TRMNL à votre compte.
+      add_device: Ajouter un nouvel appareil
 
     # toast messages
     associate:

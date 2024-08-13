@@ -121,6 +121,10 @@ ja:
       tagline: あなたのTRMNLデバイス
       add_device_modal_title: 新しいデバイスを追加
       add_first_device: 始めるには最初のデバイスを追加してください！
+    new:
+      title: Add a new device
+      description: Enter your Device ID to add a new TRMNL device to your account.
+      add_device: Add new device
 
     # toast messages
     associate:

@@ -99,7 +99,7 @@ en:
       edit_device: Edit Device
       identify: Identify
       identify_device: Identify Device
-      identify_device_hint: Click the button below to show a screen on this device that helps you identify it.
+      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
       mirror: Mirror
       mirror_device: Mirror another Device
       mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
@@ -121,6 +121,10 @@ en:
       tagline: Your TRMNL devices
       add_device_modal_title: Add a new device
       add_first_device: Start by adding your first device!
+    new:
+      title: Add a new device
+      description: Enter your Device ID to add a new TRMNL device to your account.
+      add_device: Add new device
 
     # toast messages
     associate:
