@@ -177,6 +177,21 @@ uk:
       connected: Підключені
     search: # partial (search box)
       placeholder: Знайти плагіни
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for plugin marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+
   plugin_settings:
     active: Активний
     delete: Це повністю видалить налаштування плагіна. Щоб просто приховати цей плагін з вашого пристрою, видаліть його з плейлиста.
@@ -187,6 +202,7 @@ uk:
       back_to_plugin: Назад до %{plugin}
       back_to_plugins: Назад до Плагінів
       connect_with: Підключитися до %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Примусове Оновлення
       force_refresh_hint: Ця функція призначена лише для тестування - будь ласка, не зловживайте нею.
       force_refresh_click_here: Натисніть тут

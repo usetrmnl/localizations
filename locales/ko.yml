@@ -177,6 +177,21 @@ ko:
       connected: 연결됨
     search: # partial (search box)
       placeholder: 플러그인 검색하기
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for plugin marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+
   plugin_settings:
     active: 활동중
     delete: 플러그인의 설정을 완전히 지웁니다. 단순히 디바이스에서 해당 플러그인을 숨기고 싶다면, 플레이리스트에서 삭제하세요.
@@ -187,6 +202,7 @@ ko:
       back_to_plugin: "%{plugin}으로 돌아가기"
       back_to_plugins: 플러그인 관리로 돌아가기
       connect_with: "%{plugin} 연결하기"
+      manage_plugin: Configure %{plugin}
       force_refresh: 강제 새로 고침
       force_refresh_hint: 이 기능은 테스트 용도 입니다. 남용하지 말아주세요.
       force_refresh_click_here: 여길 누르세요
