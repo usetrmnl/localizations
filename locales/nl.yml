@@ -186,6 +186,7 @@ nl:
       tagline: Enable other user to install your plugin.
       name: Name
       description: Description
+      icon: Icon
     edit:
       title: Edit Plugin
       tagline: Update your plugin details.
