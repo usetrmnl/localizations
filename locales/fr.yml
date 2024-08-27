@@ -177,6 +177,22 @@ fr:
       connected: Connecté
     search: # partial (search box)
       placeholder: Rechercher des extensions
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for plugin marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+      icon: Icon
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+
   plugin_settings:
     active: Active
     delete: Cela va entièrement supprimé les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
@@ -187,6 +203,7 @@ fr:
       back_to_plugin: Retour à %{plugin}
       back_to_plugins: Retour aux extensions
       connect_with: Se connecter avec %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Forcer le rafraichissement
       force_refresh_hint: Cette fonctionnalité est conçue pour du test seulement - prière de ne pas en abuser.
       force_refresh_click_here: Cliquez ici

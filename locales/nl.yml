@@ -177,6 +177,22 @@ nl:
       connected: Verbonden
     search: # partial (search box)
       placeholder: Zoeken binnen plugins
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for plugin marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+      icon: Icon
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+      
   plugin_settings:
     active: Actief
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
@@ -187,6 +203,7 @@ nl:
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Forceer verversen
       force_refresh_hint: Deze functie is alleen ontworpen voor testdoeleinden - maak er geen misbruik van.
       force_refresh_click_here: Hier klikken
