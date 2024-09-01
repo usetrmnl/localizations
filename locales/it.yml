@@ -1,0 +1,216 @@
+it:
+
+  # global, logged out, and auth-related
+  add: Aggiungi
+  add_new: Aggiungi nuovo
+  already_have_account: Ho già un account # signup form cta
+  back: Indietro
+  buy_now: Compra ora
+  cancel: Annulla
+  change_password: Cambia Password
+  charge_level: Livello di Ricarica
+  charged: ricaricato
+  close: Chiudi
+  confirm_change_password: Cambia la password
+  confirm_password: Conferma la nuova password
+  create_an_account: Crea un profilo # login form cta
+  days: giorni
+  delete: Cancella
+  device_id: ID Dispositivo
+  edit: Modifica
+  email_address: Indirizzo email
+  first_name: Nome
+  forgot_password: Ho dimenticato la password # login form link
+  forgot_password_title: Ci risiamo # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  get_started: Iniziamo!
+  identify: Identifica
+  keep_me_signed_in: Ricordami
+  knowledge_base: Knowledge base
+  last_name: Cognome
+  login: Accedi
+  log_out: Esci
+  minimum_characters: characters minimum # ex: 8 characters minimum
+  mins: min # 'minutes' abbreviation
+  new_password: Nuova password
+  password: Password
+  reset_password: Reimposta password
+  sign_in: Accedi # login form cta
+  sign_up: Registrati # logged out navigation
+  save: Salva
+  update: Aggiorna
+  view: View # TODO ambiguous, where is it used?
+  welcome: Benvenuto/a # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Profilo
+      tagline: Gestisci le impostazioni del profilo
+      email_address: Indirizzo Email
+      email_address_hint: Usato per accedere a TRMNL e ricevere messaggi di sistema.
+      first_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
+      last_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
+      password_hint: Usata per proteggere il tuo profilo TRMNL.
+      session: Sessione
+      session_hint: Sei connesso/a come %{user}
+      time_zone: Time Zone
+      time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
+
+    # toast messages
+    update:
+      success: Profilo aggiornato con successo
+  dashboard:
+    index:
+      title: Dashboard
+      last_7_days: Ultimi 7 giorni
+      last_30_days: Ultimi 30 giorni
+      last_90_days: Ultimi 90 giorni
+      today: Oggi
+      yesterday: Ieri
+    health: # partial (widget)
+      bad: I Plugin stanno avendo qualche problema
+      good: I Plugin stanno bene
+      next_steps: Ti faremo sapere se ci saranno cambiamenti
+    news: # partial (widget)
+      title: Novità
+    playlists: # partial (widget)
+      title: Playlist
+      cta: Vai alle Playlist
+      pieces_of_content_displayed: Elementi di contenuto mostrati
+    plugins: # partial (widget)
+      title: Plugin
+      cta: Vai ai Plugin
+      connected: Connesso
+      new_and_popular: Nuovi e Popolari
+    time_saved: # partial (widget)
+      title: Tempo risparmiato
+      cta: Maggiori informazioni
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware Accesso Anticipato # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Attiva per riceve gli aggiornamenti del firmware più recenti prima degli degli altri utenti.
+      back_to_devices: Torna a Dispositivi
+      battery_consumption: Consumo Batteria
+      battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo dalle 22 alle 6.
+      developer_perks: Modalità Sviluppatore # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Queste opzioni richiedono la Modalità Sviluppatore.
+      device_name: Nome Dispositivo
+      device_name_hint: Lo usiamo per migliorare l'interfaccia TRMNL
+      edit_device: Modifica Dispositivo
+      identify: Identifica
+      identify_device: Identifica Dispositivo
+      identify_device_hint: Fai click sul bottone sottostante per mostrare una schermata di identificazione sul dispositivo.
+      mirror: Duplica
+      mirror_device: Duplica un altro Dispositivo
+      mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
+      ota_enabled: Abilita aggiornamenti OTA
+      ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
+      sleep_mode: Modalità Riposo
+      sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
+      special_function: Funzione Speciale
+      special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
+      special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
+      unlink: Scollega
+      unlink_device: Scollega Dispositivo
+      unlink_device_hint: Scollegare un dispositivo TRMNL rende sicuro rivenderlo o darlo a qualcun altro.
+      visibility: Visibilità
+      visibility_hint: Permetti la duplicazione di questo dispositivo TRMNL modificando le impostazioni seguenti.
+      your_device: Il tuo TRMNL
+    index:
+      title: Dispositivi
+      tagline: I tuoi dispositivi TRMNL
+      add_device_modal_title: Aggiungi un nuovo dispositivo
+      add_first_device: Inizia aggiungendo il tuo primo dispositivo!
+    new:
+      title: Aggiungi un nuovo dispositivo
+      description: Immetti l'ID del dispositivo per aggiungere un nuovo dispositivo TRMNL al tuo profilo.
+      add_device: Aggiungi un nuovo dispositivo
+
+    # toast messages
+    associate:
+      error: Errore nel collegamento del dispositivo
+      success: Dispositivo collegato con successo
+    dissociate:
+      error: Errore nella disconnessione del dispositivo
+      success: Dispositivo scollegato con successo
+    identify:
+      error: Errore nell'aggiornamento del dispositivo
+      success: Richiesta identificazione del dispositivo
+    mirror:
+      error: Error mirroring device
+      error_not_shared: Provided Device ID is not shareable
+      error_oneself: Can't mirror oneself
+      success: Device %{friendly_id} successfully mirrored
+    switch:
+      error: Error switching device
+      success: Device switched successfully
+    update:
+      error: Errore nell'aggiornamento del dispositivo
+      success: "%{device} impostazioni dispositivo aggiornate con successo"
+  playlists:
+    index:
+      title: Playlist
+      tagline: Scegli cosa mostrare
+      add_first_device_cta: Comincia __aggiungendo__ il tuo primo dispositivo TRMNL!
+      add_to_playlist: Aggiungi a Playlist
+      create_first_playlist_cta: Crea la tua playlist, ma prima __connetti__ il tuo primo plugin!
+    playlist: # partial (single item)
+      delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
+      displayed_now: Mostrato ora
+      not_displayed_yet: Non ancora mostrato
+      remove_from_playlist: Rimuovi dalla playlist
+
+    # toast messages
+    create:
+      error: Aggiornamento Playlist fallito
+      success: Playlist aggiornata
+    destroy:
+      error: Errore nella rimozione dell'elemento dalla Playlist
+      success: Plugin rimosso dalla Playlist
+    update:
+      success: Playlist order updated
+  plugins:
+    index:
+      title: Plugin
+      tagline: Cosa metterai sul tuo TRMNL?
+      available: Disponibile
+      connected: Connessp
+    search: # partial (search box)
+      placeholder: Cerca Plugin
+  plugin_settings:
+    active: Attivo
+    delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
+    inactive: Inattivo
+    no_plugin_settings_found: Impostazioni per plugin non trovate. # empty state - should not appear
+    form:
+      active_hint: Mostra o nascondi questo plugin sul tuo dispositivo
+      back_to_plugin: Torna a %{plugin}
+      back_to_plugins: Torna ai Plugin
+      connect_with: Connetti con %{plugin}
+      force_refresh: Forza Aggiornamento
+      force_refresh_hint: Questa funzionalità è pensata per scopi di collaudo - per favore, non abusarne.
+      force_refresh_click_here: Clicca qui
+      force_refresh_click_here_hint: per generare subito una nuova schermata
+      learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
+      link_oauth: Collega Profilo
+      link_oauth_hint: Prima di continuare, segui la procedura di autorizzazione sicura fornita da %{plugin}
+      multiple_instances_hint: Questo plugin supporta istanze multiple.
+      name: Nome
+      name_hint: Dagli un nome per riconoscerlo facilmente
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Utilizzalo per richieste Webhook API.
+      preview: Anteprima - il tuo dispositivo mostrerà dati reali
+      refresh_rate: Frequenza di aggiornamento
+      refresh_rate_hint: Definisce con quale frequenza questo plugin recupera dati aggiornati
+      refreshed: Aggiornato
+      visit_docs: Guarda la Documentazione
+
+    # toast messages
+    create:
+      success: Plugin creato e aggiunto alla tua
+      playlist: playlist
+    destroy:
+      success: Plugin eliminato
+    handle_canceled_consent: Consent canceled, please try again
+    update:
+      success: Configurazione del plugin aggiornata con successo
