@@ -17,11 +17,11 @@ en:
   days: days
   delete: Delete
   device_id: Device ID
-  edit: Edit
+  edit: Settings
   email_address: Email address
   first_name: First Name
   forgot_password: I forgot my password # login form link
-  forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password_title: Here we go again # heading on /password/new
   get_started: Let's get you started!
   identify: Identify
   keep_me_signed_in: Keep me signed in
@@ -74,8 +74,8 @@ en:
     news: # partial (widget)
       title: News
     playlists: # partial (widget)
-      title: Playlists
-      cta: Go to Playlists
+      title: Playlist
+      cta: Edit Playlist
       pieces_of_content_displayed: Pieces of content displayed
     plugins: # partial (widget)
       title: Plugins
@@ -157,7 +157,7 @@ en:
     playlist: # partial (single item)
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
       displayed_now: Displayed now
-      not_displayed_yet: Not Displayed Yet
+      not_displayed_yet: Pending
       remove_from_playlist: Remove from playlist
 
     # toast messages
@@ -177,6 +177,23 @@ en:
       connected: Connected
     search: # partial (search box)
       placeholder: Search Plugins
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for plugin marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+      icon: Icon
+      icon_hint: 40px*40px recommended
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+
   plugin_settings:
     active: Active
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
@@ -187,6 +204,7 @@ en:
       back_to_plugin: Back to %{plugin}
       back_to_plugins: Back to Plugins
       connect_with: Connect with %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Force Refresh
       force_refresh_hint: This feature is designed for testing only - please do not abuse it.
       force_refresh_click_here: Click here
