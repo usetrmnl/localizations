@@ -188,6 +188,9 @@ es-ES:
       description: Descripción
       icon: Icono
       icon_hint: 40px*40px recomendado
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
     edit:
       title: Editar Plugin
       tagline: Actualizar la información de tu plugin.
