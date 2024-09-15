@@ -187,12 +187,15 @@ ko:
       name: Name
       description: Description
       icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
     edit:
       title: Edit Plugin
       tagline: Update your plugin details.
       name: Name
       description: Description
-
   plugin_settings:
     active: 활동중
     delete: 플러그인의 설정을 완전히 지웁니다. 단순히 디바이스에서 해당 플러그인을 숨기고 싶다면, 플레이리스트에서 삭제하세요.
