@@ -29,7 +29,7 @@ it:
   last_name: Cognome
   login: Accedi
   log_out: Esci
-  minimum_characters: characters minimum # ex: 8 characters minimum
+  minimum_characters: caratteri minimo # ex: 8 characters minimum
   mins: min # 'minutes' abbreviation
   new_password: Nuova password
   password: Password
@@ -137,13 +137,13 @@ it:
       error: Errore nell'aggiornamento del dispositivo
       success: Richiesta identificazione del dispositivo
     mirror:
-      error: Error mirroring device
-      error_not_shared: Provided Device ID is not shareable
-      error_oneself: Can't mirror oneself
-      success: Device %{friendly_id} successfully mirrored
+      error: Errore nella replicazione del dispositivo
+      error_not_shared: ID dispositivo non condivisibile
+      error_oneself: Impossibile replicare sé stesso
+      success: Dispositivo %{friendly_id} replicato correttamente
     switch:
-      error: Error switching device
-      success: Device switched successfully
+      error: Errore nel cambio dispositivo
+      success: Dispositivo cambiato
     update:
       error: Errore nell'aggiornamento del dispositivo
       success: "%{device} impostazioni dispositivo aggiornate con successo"
@@ -168,7 +168,7 @@ it:
       error: Errore nella rimozione dell'elemento dalla Playlist
       success: Plugin rimosso dalla Playlist
     update:
-      success: Playlist order updated
+      success: Ordinamento playlist aggiornato
   plugins:
     index:
       title: Plugin
@@ -177,6 +177,26 @@ it:
       connected: Connessp
     search: # partial (search box)
       placeholder: Cerca Plugin
+    my:
+      title: I Miei Plugin
+      tagline: Crea Plugin per il marketplace
+      submit_for_review: Invia per revisione
+    new:
+      title: Crea Nuovo Plugin
+      tagline: Gli altri utenti potranno installare il tuo plugin.
+      name: Nome
+      description: Descrizione
+      icon: Icona
+      icon_hint: 40px*40px raccomandata
+      installation_url_hint: Maggiori dettagli sulla procedura di installazione __qui__.
+      management_url_hint: Maggiori dettagli sulla procedura di gestione __qui__.
+      markup_url_hint: Maggiori dettagli sulla generazione delle schermate __qui__.
+    edit:
+      title: Modifica Plugin
+      tagline: Aggiorna i dettagli del tuo plugin.
+      name: Nome
+      description: Descrizione
+
   plugin_settings:
     active: Attivo
     delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
@@ -187,6 +207,7 @@ it:
       back_to_plugin: Torna a %{plugin}
       back_to_plugins: Torna ai Plugin
       connect_with: Connetti con %{plugin}
+      manage_plugin: Configura %{plugin}
       force_refresh: Forza Aggiornamento
       force_refresh_hint: Questa funzionalità è pensata per scopi di collaudo - per favore, non abusarne.
       force_refresh_click_here: Clicca qui
@@ -211,6 +232,6 @@ it:
       playlist: playlist
     destroy:
       success: Plugin eliminato
-    handle_canceled_consent: Consent canceled, please try again
+    handle_canceled_consent: Consenso revocato, riprova
     update:
       success: Configurazione del plugin aggiornata con successo
