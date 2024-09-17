@@ -1,0 +1,237 @@
+id:
+
+  # global, logged out, and auth-related
+  add: Tambah
+  add_new: Tambah baru
+  already_have_account: Saya sudah punya akun # signup form cta
+  back: Kembali
+  buy_now: Beli Sekarang
+  cancel: Batal
+  change_password: Ubah Kata Sandi
+  charge_level: Tingkat Pengisian
+  charged: Terisi penuh
+  close: Tutup
+  confirm_change_password: Ubah kata sandi saya
+  confirm_password: Konfirmasi kata sandi baru
+  create_an_account: Buat akun baru# login form cta
+  days: hari
+  delete: Hapus
+  device_id: ID Perangkat
+  edit: Pengaturan
+  email_address: Alamat Email
+  first_name: Nama Depan
+  forgot_password: Lupa kata sandi # login form link
+  forgot_password_title: Atur ulang kata sandi # heading on /password/new
+  get_started: Mari kita mulai!
+  identify: Identifikasi
+  keep_me_signed_in: Biarkan saya tetap masuk
+  knowledge_base: Basis pengetahuan
+  last_name: Nama Belakang
+  login: Masuk
+  log_out: Keluar
+  minimum_characters: karakter minimal # ex: 8 characters minimum
+  mins: menit # 'minutes' abbreviation
+  new_password: Kata sandi baru
+  password: Kata Sandi
+  reset_password: Atur Ulang Kata Sandi
+  sign_in: Masuk # login form cta
+  sign_up: Daftar # logged out navigation
+  save: Simpan
+  update: Perbarui
+  view: Lihat
+  welcome: Selamat datang # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Akun
+      tagline: Kelola pengaturan akun Anda
+      email_address: Alamat Email
+      email_address_hint: Digunakan untuk masuk ke TRMNL dan menerima pesan sistem.
+      first_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
+      last_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
+      password_hint: Digunakan untuk melindungi akun TRMNL Anda.
+      session: Sesi
+      session_hint: Anda sedang masuk sebagai %{user}
+      time_zone: Zona Waktu
+      time_zone_hint: Menentukan penyegaran dan waktu tidur perangkat.
+
+    # toast messages
+    update:
+      success: Profil Anda berhasil diperbarui!
+  dashboard:
+    index:
+      title: Dasbor
+      last_7_days: 7 hari terakhir
+      last_30_days: 30 hari terakhir
+      last_90_days: 90 hari terakhir
+      today: Hari ini
+      yesterday: Kemarin
+    health: # partial (widget)
+      bad: Plugin mengalami kendala
+      good: Plugin berfungsi dengan baik
+      next_steps: Kami akan memberi tahu Anda jika ada perubahan
+    news: # partial (widget)
+      title: Berita
+    playlists: # partial (widget)
+      title: Daftar Putar
+      cta: Ubah Daftar Putar
+      pieces_of_content_displayed: Potongan konten yang ditampilkan
+    plugins: # partial (widget)
+      title: Plugin
+      cta: Pergi ke Plugin
+      connected: Terhubung
+      new_and_popular: Baru dan Populer
+    time_saved: # partial (widget)
+      title: Waktu yang dihemat
+      cta: Pelajari lebih lanjut
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware tahap Beta # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Aktifkan untuk mendapatkan pembaruan firmware perangkat terbaru sebelum pengguna lain.
+      back_to_devices: Kembali ke Perangkat
+      battery_consumption: Penggunaan Baterai
+      battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur dari jam 10 malam hingga 6 pagi.
+      developer_perks: Keuntungan Pengembang # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Opsi di bawah ini membutuhkan add-on Pengembang.
+      device_name: Nama Perangkat
+      device_name_hint: Kami menggunakan ini untuk membuat antarmuka TRMNL lebih nyaman
+      edit_device: Ubah Perangkat
+      identify: Identifikasi
+      identify_device: Identifikasi Perangkat
+      identify_device_hint: Klik tombol di bawah ini untuk menampilkan layar pada perangkat ini yang membantu mengidentifikasinya.
+      mirror: Mirroring
+      mirror_device: Mirror Perangkat Lain
+      mirror_device_hint: Masukkan ID Perangkat (yang dapat dibagikan) untuk mirror daftar putarnya. Daftar putar Anda tetap akan ditampilkan.
+      ota_enabled: Pembaruan OTA Diaktifkan
+      ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
+      sleep_mode: Mode Tidur
+      sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
+      special_function: Fungsi Khusus
+      special_function_hint: Atur fitur klik ganda untuk tombol di belakang perangkat Anda.
+      special_function_learn_more: Pelajari lebih lanjut tentang fungsi khusus __di sini__.
+      unlink: Lepas Tautan
+      unlink_device: Lepaskan Tautan Perangkat
+      unlink_device_hint: Lepaskan tautan perangkat TRMNL agar aman untuk dijual kembali atau diberikan kepada orang lain.
+      visibility: Visibilitas
+      visibility_hint: Jadikan perangkat TRMNL Anda dapat di-mirroring dengan mengubah pengaturan di bawah ini.
+      your_device: TRMNL Anda
+    index:
+      title: Perangkat
+      tagline: Perangkat TRMNL Anda
+      add_device_modal_title: Tambah perangkat baru
+      add_first_device: Mulai dengan menambahkan perangkat pertama Anda!
+    new:
+      title: Tambah perangkat baru
+      description: Masukkan ID Perangkat Anda untuk menambahkan perangkat TRMNL baru ke akun Anda.
+      add_device: Tambahkan perangkat baru
+
+    # toast messages
+    associate:
+      error: Terjadi kesalahan saat menautkan perangkat
+      success: Perangkat berhasil ditautkan
+    dissociate:
+      error: Terjadi kesalahan saat melepaskan tautan perangkat
+      success: Perangkat berhasil dilepaskan tautannya
+    identify:
+      error: Terjadi kesalahan saat memperbarui perangkat
+      success: Permintaan identifikasi perangkat berhasil
+    mirror:
+      error: Terjadi kesalahan saat mirroring perangkat
+      error_not_shared: ID Perangkat yang dimasukan tidak dapat di-mirroring
+      error_oneself: Tidak bisa mirror perangkat milik sendiri
+      success: Perangkat %{friendly_id} berhasil di-mirroring
+    switch:
+      error: Terjadi kesalahan saat mengganti perangkat
+      success: Perangkat berhasil diganti
+    update:
+      error: Terjadi kesalahan saat memperbarui perangkat
+      success: Pengaturan perangkat %{device} berhasil diperbarui
+  playlists:
+    index:
+      title: Daftar Putar
+      tagline: Pilih apa yang ingin Anda tampilkan di
+      add_first_device_cta: Mulai dengan __menambahkan__ perangkat TRMNL pertama Anda!
+      add_to_playlist: Tambahkan ke Daftar Putar
+      create_first_playlist_cta: Buat daftar putar setelah __menghubungkan__ plugin pertama Anda!
+    playlist: # partial (single item)
+      delete: Apakah Anda yakin ingin menghapus item ini? Plugin akan tetap terhubung, hanya tidak ditampilkan di perangkat Anda.
+      displayed_now: Ditampilkan sekarang
+      not_displayed_yet: Tertunda
+      remove_from_playlist: Hapus dari daftar putar
+
+    # toast messages
+    create:
+      error: Gagal memperbarui daftar putar
+      success: Daftar putar berhasil diperbarui
+    destroy:
+      error: Terjadi kesalahan saat menghapus item dari daftar putar
+      success: Plugin berhasil dihapus dari Daftar Putar
+    update:
+      success: Urutan daftar putar berhasil diperbarui
+  plugins:
+    index:
+      title: Plugin
+      tagline: Apa yang ingin Anda tampilkan di TRMNL Anda?
+      available: Tersedia
+      connected: Terhubung
+    search: # partial (search box)
+      placeholder: Cari Plugin
+    my:
+      title: Plugin Saya
+      tagline: Kembangkan Plugin Anda untuk lokapasar plugin
+      submit_for_review: Ajukan untuk ditinjau
+    new:
+      title: Buat Plugin Baru
+      tagline: Permudah pengguna lain memasang plugin buatan Anda!
+      name: Nama
+      description: Deskripsi
+      icon: Ikon
+      icon_hint: Disarankan ukuran 40px*40px
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
+    edit:
+      title: Ubah Plugin
+      tagline: Perbarui detail plugin Anda.
+      name: Nama
+      description: Deskripsi
+
+  plugin_settings:
+    active: Aktif
+    delete: Ini akan sepenuhnya menghapus pengaturan plugin. Untuk hanya menyembunyikan plugin ini dari perangkat Anda, hapus dari Daftar Putar Anda.
+    inactive: Tidak Aktif
+    no_plugin_settings_found: Tidak ditemukan pengaturan plugin. # empty state - should not appear
+    form:
+      active_hint: Tampilkan atau sembunyikan plugin ini di perangkat Anda
+      back_to_plugin: Kembali ke %{plugin}
+      back_to_plugins: Kembali ke Plugin
+      connect_with: Hubungkan dengan %{plugin}
+      manage_plugin: Konfigurasi %{plugin}
+      force_refresh: Penyegaran Paksa
+      force_refresh_hint: Fitur ini dirancang untuk pengujian saja - mohon jangan disalahgunakan.
+      force_refresh_click_here: Klik di sini
+      force_refresh_click_here_hint: untuk menghasilkan layar baru segera
+      learn_more: Pelajari tentang plugin ini di basis pengetahuan kami
+      link_oauth: Tautkan Akun
+      link_oauth_hint: Sebelum Anda melanjutkan, ikuti proses otorisasi aman yang disediakan oleh %{plugin}
+      multiple_instances_hint: Plugin ini mendukung beberapa instance.
+      name: Nama
+      name_hint: Beri nama untuk referensi yang lebih mudah
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Gunakan ini untuk membuat permintaan API Webhook.
+      preview: Pratinjau - perangkat Anda akan menampilkan data nyata
+      refresh_rate: Tingkat Penyegaran
+      refresh_rate_hint: Tentukan seberapa sering plugin ini mengambil data baru
+      refreshed: Diperbarui
+      visit_docs: Kunjungi Dokumentasi
+
+    # toast messages
+    create:
+      success: Plugin berhasil dibuat dan ditambahkan ke
+      playlist: daftar putar
+    destroy:
+      success: Plugin berhasil dihapus
+    handle_canceled_consent: Persetujuan dibatalkan, silakan coba lagi
+    update:
+      success: Konfigurasi plugin berhasil diperbarui
