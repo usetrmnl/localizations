@@ -24,7 +24,7 @@ fr:
   forgot_password_title: Rebelote # heading on /password/new
   get_started: Commençons !
   identify: S'identifier
-  keep_me_signed_in: Rester connecté·e
+  keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
   login: Se connecter
@@ -47,7 +47,7 @@ fr:
       title: Compte
       tagline: Gérez vos paramètres de compte
       email_address: Adresse email
-      email_address_hint: Utilisé pour s'identifier dans TRMNL et recevoir des messages du système.
+      email_address_hint: Utilisée pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.
       password_hint: Utilisé pour protéger votre compte TRMNL.
@@ -80,14 +80,14 @@ fr:
     plugins: # partial (widget)
       title: Extensions
       cta: Accéder aux extensions
-      connected: Connecté
+      connected: Connectée
       new_and_popular: Nouveau et populaire
     time_saved: # partial (widget)
       title: Temps économisé
       cta: À propos
   devices:
     edit:
-      accepts_beta_firmware: Mise à Jour en Accès Anticipé # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Mise à jour en accès anticipé # true/false toggle to receive new device updates before regular users
       accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du micrologiciel de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
@@ -99,12 +99,12 @@ fr:
       edit_device: Éditer l'appareil
       identify: Identifier
       identify_device: Identifier l'appareil
-      identify_device_hint: Cliquez sur le bouton ci-dessous pour afficher un écran sur cet appareil qui vous aideront à l'identifier.
+      identify_device_hint: Cliquez sur le bouton ci-dessous pour afficher un écran sur cet appareil qui vous aidera à l'identifier.
       mirror: Miroir
       mirror_device: Mettre en miroir avec un autre appareil
-      mirror_device_hint: Fournir a ID d'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
-      ota_enabled: OTA Updates Enabled
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      mirror_device_hint: Fournir un ID à l'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
+      ota_enabled: Mises à jour de l'OTA activées
+      ota_enabled_hint: Installer automatiquement le nouveau firmware. Désactivez si vous souhaitez utiliser votre propre firmware.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
       special_function: Fonction Spéciale
@@ -139,7 +139,7 @@ fr:
     mirror:
       error: Erreur lors de la mise en miroir de l'appareil
       error_not_shared: L'appareil ciblé n'est pas visible
-      error_oneself: Ne peut pas se mirroir avec soi-même
+      error_oneself: Ne peut pas se mettre en miroir avec lui-même
       success: Appareil %{friendly_id} mis en miroir avec succès
     switch:
       error: Erreur lors du changement d'appareil
@@ -174,31 +174,31 @@ fr:
       title: Extensions
       tagline: Qu'allez-vous mettre sur votre TRMNL ?
       available: Disponible
-      connected: Connecté
+      connected: Connectée
     search: # partial (search box)
       placeholder: Rechercher des extensions
     my:
-      title: My Plugins
-      tagline: Develop Plugins for plugin marketplace
-      submit_for_review: Submit for Review
+      title: Mes extensions
+      tagline: Developpez des plugins pour le marketplace
+      submit_for_review: Soumettre pour revue
     new:
-      title: Create New Plugin
-      tagline: Enable other user to install your plugin.
-      name: Name
+      title: Créer un nouveau plugin
+      tagline: Permettre à d'autres d'installer votre plugin.
+      name: Nom
       description: Description
-      icon: Icon
-      icon_hint: 40px*40px recommended
-      installation_url_hint: Learn more about the installation flow __here__.
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url_hint: Learn more about screen generation __here__.
+      icon: Icone
+      icon_hint: 40px*40px recommandé
+      installation_url_hint: En apprendre plus sur le processus d'installation __ici__.
+      management_url_hint: En apprendre plus sur le processus de gestion __ici.
+      markup_url_hint: En apprendre plus sur la génération d'écran __ici__.
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
+      title: Editer l'extension
+      tagline: Mettre à jour les détails de votre extension.
+      name: Nom
       description: Description
   plugin_settings:
     active: Active
-    delete: Cela va entièrement supprimé les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
+    delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
     no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
     form:
@@ -231,6 +231,6 @@ fr:
       playlist: playlist
     destroy:
       success: Extension supprimée
-    handle_canceled_consent: Consentement annulé, veuillez réessayer
+    handle_canceled_consent: Consentement retiré, veuillez réessayer
     update:
       success: Configuration de l'extension mise à jour avec succès
