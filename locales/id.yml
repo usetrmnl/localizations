@@ -196,7 +196,6 @@ id:
       tagline: Perbarui detail plugin Anda.
       name: Nama
       description: Deskripsi
-
   plugin_settings:
     active: Aktif
     delete: Ini akan sepenuhnya menghapus pengaturan plugin. Untuk hanya menyembunyikan plugin ini dari perangkat Anda, hapus dari Daftar Putar Anda.

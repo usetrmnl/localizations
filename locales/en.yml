@@ -196,7 +196,6 @@ en:
       tagline: Update your plugin details.
       name: Name
       description: Description
-
   plugin_settings:
     active: Active
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.

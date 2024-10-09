@@ -196,7 +196,6 @@ it:
       tagline: Aggiorna i dettagli del tuo plugin.
       name: Nome
       description: Descrizione
-
   plugin_settings:
     active: Attivo
     delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
