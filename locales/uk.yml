@@ -94,7 +94,7 @@ uk:
       battery_consumption: Споживання батареї
       battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалішим часом роботи батареї, увімкнувши Режим сну з 22:00 до 6:00.
       developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Options below require the Developer add-on.
+      developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Назва пристрою
       device_name_hint: Ми використовуємо імʼя пристрою, щоб зробити інтерфейс TRMNL більш зручним
       edit_device: Змінити налаштування пристрою

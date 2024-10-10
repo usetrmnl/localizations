@@ -94,7 +94,7 @@ it:
       battery_consumption: Consumo Batteria
       battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo dalle 22 alle 6.
       developer_perks: Modalità Sviluppatore # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Queste opzioni richiedono la Modalità Sviluppatore.
+      developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
       device_name: Nome Dispositivo
       device_name_hint: Lo usiamo per migliorare l'interfaccia TRMNL
       edit_device: Modifica Dispositivo

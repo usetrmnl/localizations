@@ -94,7 +94,7 @@ ko:
       battery_consumption: 배터리 소모
       battery_consumption_hint: 밤 10시 부터 아침 6시까지 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
       developer_perks: 개발자 버전 특혜 # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: 아래는 개발자 옵션을 추가한 경우 사용 가능합니다.
+      developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
       device_name: 기기 이름
       device_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 합니다.
       edit_device: 기기 수정

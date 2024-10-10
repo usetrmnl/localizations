@@ -94,7 +94,7 @@ es-ES:
       battery_consumption: Consumo de Batería
       battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión de 10 pm a 6 am.
       developer_perks: Ventajas para Desarrolladores
-      developer_perks_hint: Las opciones a continuación requieren el plugin de Desarrollador.
+      developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrollador__.
       device_name: Nombre del Dispositivo
       device_name_hint: Lo utilizamos para hacer la interfaz de TRMNL más cómoda
       edit_device: Editar Dispositivo
