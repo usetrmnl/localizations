@@ -27,6 +27,7 @@ ja:
   keep_me_signed_in: サインイン状態を維持する
   knowledge_base: 説明書
   last_name: 姓
+  loading: Loading
   login: ログイン
   log_out: ログアウト
   minimum_characters: 最小文字数 # ex: 8 characters minimum
@@ -234,3 +235,9 @@ ja:
     handle_canceled_consent: 同意がキャンセルされました。もう一度お試しください。
     update:
       success: プラグイン構成が正常に更新されました。
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

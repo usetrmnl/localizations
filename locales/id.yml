@@ -27,6 +27,7 @@ id:
   keep_me_signed_in: Biarkan saya tetap masuk
   knowledge_base: Basis pengetahuan
   last_name: Nama Belakang
+  loading: Loading
   login: Masuk
   log_out: Keluar
   minimum_characters: karakter minimal # ex: 8 characters minimum
@@ -234,3 +235,9 @@ id:
     handle_canceled_consent: Persetujuan dibatalkan, silakan coba lagi
     update:
       success: Konfigurasi plugin berhasil diperbarui
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

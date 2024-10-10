@@ -27,6 +27,7 @@ fr:
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
+  loading: Loading
   login: Se connecter
   log_out: Se déconnecter
   minimum_characters: caractères minimums # ex: 8 characters minimum
@@ -234,3 +235,9 @@ fr:
     handle_canceled_consent: Consentement retiré, veuillez réessayer
     update:
       success: Configuration de l'extension mise à jour avec succès
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

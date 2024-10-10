@@ -27,6 +27,7 @@ en:
   keep_me_signed_in: Keep me signed in
   knowledge_base: Knowledge base
   last_name: Last Name
+  loading: Loading
   login: Login
   log_out: Log out
   minimum_characters: characters minimum # ex: 8 characters minimum
@@ -234,3 +235,9 @@ en:
     handle_canceled_consent: Consent canceled, please try again
     update:
       success: Plugin configuration updated successfully
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

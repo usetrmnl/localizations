@@ -27,6 +27,7 @@ ko:
   keep_me_signed_in: 로그인 상태 유지하기
   knowledge_base: 설명서
   last_name: 성
+  loading: 로딩중
   login: 로그인
   log_out: 로그아웃
   minimum_characters: 최소 글자 수 # ex: 8 characters minimum
@@ -234,3 +235,9 @@ ko:
     handle_canceled_consent: 동의가 취소되었습니다. 다시 시도하세요.
     update:
       success: 플러그인 구성이 성공적으로 업데이트 되었습니다.
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

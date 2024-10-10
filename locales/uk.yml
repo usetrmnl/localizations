@@ -27,6 +27,7 @@ uk:
   keep_me_signed_in: Залишатись у системі
   knowledge_base: База знань
   last_name: Прізвище
+  loading: Loading
   login: Вхід # TODO: Check context, maybe be "Увійти" або "Логін"?
   log_out: Вийти
   minimum_characters: мінімум символів # ex: 8 characters minimum
@@ -234,3 +235,9 @@ uk:
     handle_canceled_consent: Згоду скасовано, будь ласка, спробуйте ще раз # TODO: Check the context
     update:
       success: Конфігурацію плагіна успішно оновлено
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

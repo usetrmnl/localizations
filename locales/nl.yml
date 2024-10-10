@@ -27,6 +27,7 @@ nl:
   keep_me_signed_in: Blijf ingelogd
   knowledge_base: Kennisbank
   last_name: Achternaam
+  loading: Loading
   login: Inloggen
   log_out: Uitloggen
   minimum_characters: karakters minimaal # ex: 8 characters minimum
@@ -234,3 +235,9 @@ nl:
     handle_canceled_consent: Consent afgewezen, probeer het nogmaals
     update:
       success: Plugin configuratie is succesvol bijgewerkt
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"

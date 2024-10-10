@@ -27,6 +27,7 @@ de:
   keep_me_signed_in: Angemeldet bleiben
   knowledge_base: Fragen und Antworten
   last_name: Nachname
+  loading: Loading
   login: Anmelden
   log_out: Abmelden
   minimum_characters: Zeichen Minimum # ex: 8 characters minimum
@@ -234,3 +235,9 @@ de:
     handle_canceled_consent: Zustimmung wurde nicht erteilt. Bitte erneut versuchen.
     update:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and more
+      pay: Pay # button text; ex "Pay $20"
