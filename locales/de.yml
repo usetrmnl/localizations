@@ -180,7 +180,7 @@ de:
       placeholder: Erweiterungen suchen
     my:
       title: My Plugins
-      tagline: Develop Plugins for plugin marketplace
+      tagline: Develop Plugins for the public marketplace
       submit_for_review: Submit for Review
     new:
       title: Create New Plugin
