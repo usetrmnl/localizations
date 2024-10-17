@@ -187,6 +187,7 @@ en:
       tagline: Other users will be able to install your plugin.
       name: Name
       description: Description
+      description_hint: Maximum 50 characters
       icon: Icon
       icon_hint: 40px*40px recommended
       installation_url_hint: Learn more about the installation flow __here__.

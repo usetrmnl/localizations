@@ -187,6 +187,7 @@ id:
       tagline: Permudah pengguna lain memasang plugin buatan Anda!
       name: Nama
       description: Deskripsi
+      description_hint: Maximum 50 characters
       icon: Ikon
       icon_hint: Disarankan ukuran 40px*40px
       installation_url_hint: Learn more about the installation flow __here__.
