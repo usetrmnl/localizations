@@ -13,3 +13,15 @@ collection of in-app labels, toast messages, and help messages to make [TRMNL](h
 2. make a copy of `locales/en.yml` and create a new file, `locales/your-lang-code.yml`
 3. follow [the guides](https://github.com/usetrmnl/localizations/blob/master/GUIDE.md) to localize in-app content
 4. submit a pull request and ask questions if you need help
+
+## Credits
+
+- German via @ramdacxp, @philippbosch
+- Spanish (Spain) via @joesfer
+- French via @theogiraudet
+- Indonesian via @Adekabang
+- Italian via @danieleb-podero
+- Japanese via Hiroyuki Miyoshi
+- Korean via @i-say-young
+- Dutch via @huge10, @SjanPjer
+- Ukrainian via @veikus, @yankobogdan
