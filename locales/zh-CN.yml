@@ -1,4 +1,4 @@
-en:
+zh-CN:
 
   # global, logged out, and auth-related
   add: 添加
@@ -53,7 +53,7 @@ en:
       last_name_hint: 用于TRMNL界面
       password_hint: 用于TRMNL账号登录
       session: 用户
-      session_hint: 登陆用户名为 %{user}
+      session_hint: 当前登陆用户名：%{user}
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
 
@@ -92,7 +92,7 @@ en:
       accepts_beta_firmware_hint: 打开以提前使用最新固件
       back_to_devices: 返回设备列表
       battery_consumption: 电池消耗
-      battery_consumption_hint: 在晚上10点到早上6点之间启用睡眠模式，节省电量并延长电池寿命。
+      battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
       developer_perks: 开发者选项 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 下列选项需要__开发者选项__
       device_name: 设备名称
@@ -124,7 +124,7 @@ en:
       add_first_device: 添加您的第一个TRMNL设备！
     new:
       title: 添加新TRMNL设备
-      description: 输入您的TRMNL设备ID以添加新TRNML设备
+      description: 输入您的TRMNL设备ID以添加新TRMNL设备
       add_device: 添加新添加新TRMNL设备设备
 
     # toast messages
@@ -142,6 +142,7 @@ en:
       error_not_shared: 提供的设备ID不可共享
       error_oneself: 禁止镜像自己
       success: 设备ID：%{friendly_id} 镜像成功
+      success_removed: 镜像已删除
     switch:
       error: 禁止切换设备
       success: 设备切换成功
@@ -157,7 +158,7 @@ en:
       create_first_playlist_cta: 连接您的第一个插件以创建播放列表！
     playlist: # partial (single item)
       delete: 确认删除设备？尽在设备上删除，不会影响插件连接。
-      displayed_now: 现在正在显示
+      displayed_now: 正在显示
       not_displayed_yet: 尚未显示
       remove_from_playlist: 从播放列表中删除
 
@@ -216,12 +217,12 @@ en:
       learn_more: 了解更多
       link_oauth: 链接账户
       link_oauth_hint: 在继续之前，请按照 %{plugin} 提供的授权流程操作
-      multiple_instances_hint: 此插件有多实例
+      multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
       plugin_uuid: 插件UUID
       plugin_uuid_hint: 用于发起 Webhook API 请求
-      preview: 预览--在设备上显示
+      preview: 预览
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
       refreshed: 已刷新
@@ -235,7 +236,9 @@ en:
       success: 插件设置删除成功
     handle_canceled_consent: 用户取消授权
     update:
-      success: 插件设置更新成功
+      success: 插件成功更新设置
+    add_to_playlist:
+      success: 插件成功添加到播放列表
 
   upgrade:
     index:
