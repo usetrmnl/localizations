@@ -92,7 +92,7 @@ uk:
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Назад до пристроїв
       battery_consumption: Споживання батареї
-      battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалішим часом роботи батареї, увімкнувши Режим сну з 22:00 до 8:00.
+      battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
       developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Назва пристрою

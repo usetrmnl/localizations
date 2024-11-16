@@ -92,7 +92,7 @@ ja:
       accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
       back_to_devices: デバイス管理画面に戻る
       battery_consumption: バッテリー消費
-      battery_consumption_hint: 夜10時から朝6時までデバイスをスリープモードに設定すると、バッテリー寿命を延ばすことができます。
+      battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
       developer_perks: 開発者向け特典 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_name: デバイス名

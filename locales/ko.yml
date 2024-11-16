@@ -92,7 +92,7 @@ ko:
       accepts_beta_firmware_hint: 다른 사용자들보다 먼저 새로 나온 디바이스 펌웨어를 사용하려면 버튼을 눌러주세요.
       back_to_devices: 기기 관리 화면으로 돌아가기
       battery_consumption: 배터리 소모
-      battery_consumption_hint: 밤 10시 부터 아침 8시까지 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
+      battery_consumption_hint: 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
       developer_perks: 개발자 버전 특혜 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
       device_name: 기기 이름

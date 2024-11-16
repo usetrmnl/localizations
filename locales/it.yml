@@ -92,7 +92,7 @@ it:
       accepts_beta_firmware_hint: Attiva per riceve gli aggiornamenti del firmware più recenti prima degli degli altri utenti.
       back_to_devices: Torna a Dispositivi
       battery_consumption: Consumo Batteria
-      battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo dalle 22 alle 8.
+      battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo.
       developer_perks: Modalità Sviluppatore # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
       device_name: Nome Dispositivo

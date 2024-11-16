@@ -92,7 +92,7 @@ es-ES:
       accepts_beta_firmware_hint: Activa para obtener las últimas mejoras de firmware del dispositivo antes que otros usuarios.
       back_to_devices: Volver a Dispositivos
       battery_consumption: Consumo de Batería
-      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión de 10 pm a 8 am.
+      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión.
       developer_perks: Ventajas para Desarrolladores
       developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrollador__.
       device_name: Nombre del Dispositivo
