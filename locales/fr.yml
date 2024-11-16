@@ -92,7 +92,7 @@ fr:
       accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du micrologiciel de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
-      battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise en veille entre 22:00 et 06:00.
+      battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise en veille entre 22:00 et 08:00.
       developer_perks: Avantages pour les Développeurs # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Les options ci-dessous requierent le __complément payant Developer__.
       device_name: Nom de l'appareil
@@ -142,6 +142,7 @@ fr:
       error_not_shared: L'appareil ciblé n'est pas visible
       error_oneself: Ne peut pas se mettre en miroir avec lui-même
       success: Appareil %{friendly_id} mis en miroir avec succès
+      success_removed: Mirroring Removed
     switch:
       error: Erreur lors du changement d'appareil
       success: Appareil changé avec succès
@@ -236,9 +237,11 @@ fr:
     handle_canceled_consent: Consentement retiré, veuillez réessayer
     update:
       success: Configuration de l'extension mise à jour avec succès
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

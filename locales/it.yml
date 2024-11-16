@@ -92,7 +92,7 @@ it:
       accepts_beta_firmware_hint: Attiva per riceve gli aggiornamenti del firmware più recenti prima degli degli altri utenti.
       back_to_devices: Torna a Dispositivi
       battery_consumption: Consumo Batteria
-      battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo dalle 22 alle 6.
+      battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo dalle 22 alle 8.
       developer_perks: Modalità Sviluppatore # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
       device_name: Nome Dispositivo
@@ -142,6 +142,7 @@ it:
       error_not_shared: ID dispositivo non condivisibile
       error_oneself: Impossibile replicare sé stesso
       success: Dispositivo %{friendly_id} replicato correttamente
+      success_removed: Mirroring Removed
     switch:
       error: Errore nel cambio dispositivo
       success: Dispositivo cambiato
@@ -236,9 +237,11 @@ it:
     handle_canceled_consent: Consenso revocato, riprova
     update:
       success: Configurazione del plugin aggiornata con successo
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

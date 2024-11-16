@@ -92,7 +92,7 @@ id:
       accepts_beta_firmware_hint: Aktifkan untuk mendapatkan pembaruan firmware perangkat terbaru sebelum pengguna lain.
       back_to_devices: Kembali ke Perangkat
       battery_consumption: Penggunaan Baterai
-      battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur dari jam 10 malam hingga 6 pagi.
+      battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur dari jam 10 malam hingga 8 pagi.
       developer_perks: Keuntungan Pengembang # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Opsi di bawah ini membutuhkan __add-on Pengembang__.
       device_name: Nama Perangkat
@@ -142,6 +142,7 @@ id:
       error_not_shared: ID Perangkat yang dimasukan tidak dapat di-mirroring
       error_oneself: Tidak bisa mirror perangkat milik sendiri
       success: Perangkat %{friendly_id} berhasil di-mirroring
+      success_removed: Mirroring Removed
     switch:
       error: Terjadi kesalahan saat mengganti perangkat
       success: Perangkat berhasil diganti
@@ -236,9 +237,11 @@ id:
     handle_canceled_consent: Persetujuan dibatalkan, silakan coba lagi
     update:
       success: Konfigurasi plugin berhasil diperbarui
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

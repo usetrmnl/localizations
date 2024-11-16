@@ -142,6 +142,7 @@ ja:
       error_not_shared: 提供されたデバイスIDが共有可能な状態ではありません
       error_oneself: 自身にはミラーモードを適用できません
       success: "%{friendly_id}デバイスが正常にミラーモードになりました"
+      success_removed: Mirroring Removed
     switch:
       error: デバイス切り替えエラー
       success: デバイスが正常に切り替えられました
@@ -236,9 +237,11 @@ ja:
     handle_canceled_consent: 同意がキャンセルされました。もう一度お試しください。
     update:
       success: プラグイン構成が正常に更新されました。
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

@@ -92,7 +92,7 @@ es-ES:
       accepts_beta_firmware_hint: Activa para obtener las últimas mejoras de firmware del dispositivo antes que otros usuarios.
       back_to_devices: Volver a Dispositivos
       battery_consumption: Consumo de Batería
-      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión de 10 pm a 6 am.
+      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión de 10 pm a 8 am.
       developer_perks: Ventajas para Desarrolladores
       developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrollador__.
       device_name: Nombre del Dispositivo
@@ -142,6 +142,7 @@ es-ES:
       error_not_shared: El ID de dispositivo proporcionado no puede compartirse
       error_oneself: No se puede copiar un mismo dispositivo
       success: Dispositivo %{friendly_id} copiado con éxito
+      success_removed: Mirroring Removed
     switch:
       error: Error al cambiar de dispositivo
       success: Dispositivo cambiado con éxito
@@ -236,9 +237,11 @@ es-ES:
     handle_canceled_consent: Consentimiento cancelado, por favor intenta de nuevo
     update:
       success: Configuración del plugin actualizada con éxito
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

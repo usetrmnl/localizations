@@ -92,7 +92,7 @@ nl:
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
-      battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren van 22u tot 6u.
+      battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren van 22u tot 8u.
       developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Apparaatnaam
@@ -142,6 +142,7 @@ nl:
       error_not_shared: Opgegeven aparaat ID is niet deelbaar
       error_oneself: Kan zichzelf niet spiegelen
       success: Apparaat %{friendly_id} succesvol gespiegeld
+      success_removed: Mirroring Removed
     switch:
       error: Fout bij wisselen apparaat
       success: Apparaat succesvol gewisseldy
@@ -236,9 +237,11 @@ nl:
     handle_canceled_consent: Consent afgewezen, probeer het nogmaals
     update:
       success: Plugin configuratie is succesvol bijgewerkt
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
+      tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"
