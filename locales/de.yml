@@ -92,7 +92,7 @@ de:
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
-      battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus von 22:00 bis 06:00 Uhr.
+      battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus von 22:00 bis 08:00 Uhr.
       developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Gerätename
@@ -142,6 +142,7 @@ de:
       error_not_shared: Die angegebene Gerätekennung ist nicht öffentlich
       error_oneself: Das eigene Gerät kann nicht gespiegelt werden
       success: Gerät %{friendly_id} erfolgreich gespiegelt
+      success_removed: Mirroring Removed
     switch:
       error: Fehler beim Wechseln des Gerätes
       success: Gerät erfolgreich gewechselt
@@ -236,6 +237,8 @@ de:
     handle_canceled_consent: Zustimmung wurde nicht erteilt. Bitte erneut versuchen.
     update:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
+    add_to_playlist:
+      success: Plugin added to Playlist
 
   upgrade:
     index:
