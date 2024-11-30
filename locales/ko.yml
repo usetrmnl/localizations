@@ -83,6 +83,8 @@ ko:
       cta: 플러그인 더보기
       connected: 연결
       new_and_popular: 인기 급상승 & 새 플러그인
+    shop:
+      title: 쇼핑
     time_saved: # partial (widget)
       title: 절약한 시간
       cta: 더 알아보기
@@ -226,6 +228,7 @@ ko:
       refresh_rate: 새로고침 비율
       refresh_rate_hint: 이 플러그인 인스턴스가 얼마나 자주 새 데이터를 불러올지 정합니다
       refreshed: 새로고침됨
+      synced: Synced
       visit_docs: 문서열기
 
     # toast messages

@@ -83,6 +83,8 @@ en:
       cta: Go to Plugins
       connected: Connected
       new_and_popular: New and Popular
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Time saved
       cta: Read about
@@ -226,6 +228,7 @@ en:
       refresh_rate: Refresh rate
       refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
       refreshed: Refreshed
+      synced: Synced
       visit_docs: Visit Docs
 
     # toast messages

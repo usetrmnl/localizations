@@ -83,6 +83,8 @@ ja:
       cta: プラグインをもっと見る
       connected: 接続済み
       new_and_popular: 新着＆人気のプラグイン
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: 節約した時間
       cta: 詳しく見る
@@ -226,6 +228,7 @@ ja:
       refresh_rate: リフレッシュ頻度
       refresh_rate_hint: このプラグインインスタンスがどれくらい頻繁に新しいデータを取得するかを決定します
       refreshed: リフレッシュ完了
+      synced: Synced
       visit_docs: ドキュメントを開く
 
     # toast messages

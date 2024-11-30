@@ -83,6 +83,8 @@ nl:
       cta: Ga naar plugins
       connected: Verbonden
       new_and_popular: Nieuw en populair
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Tijd bespaard
       cta: Lees meer
@@ -226,6 +228,7 @@ nl:
       refresh_rate: Refresh rate
       refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
       refreshed: Ververst
+      synced: Synced
       visit_docs: Bekijk Docs
 
     # toast messages

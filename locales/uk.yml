@@ -83,6 +83,8 @@ uk:
       cta: Перейти до плагінів
       connected: Підключено
       new_and_popular: Нові та популярні
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Зекономлений час
       cta: Читати далі
@@ -226,6 +228,7 @@ uk:
       refresh_rate: Частота оновлення
       refresh_rate_hint: Оберіть, як часто цей екземпляр плагіна отримує свіжі дані
       refreshed: Оновлено
+      synced: Synced
       visit_docs: Переглянути Документацію
 
     # toast messages

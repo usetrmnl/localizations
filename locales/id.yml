@@ -83,6 +83,8 @@ id:
       cta: Pergi ke Plugin
       connected: Terhubung
       new_and_popular: Baru dan Populer
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Waktu yang dihemat
       cta: Pelajari lebih lanjut
@@ -226,6 +228,7 @@ id:
       refresh_rate: Tingkat Penyegaran
       refresh_rate_hint: Tentukan seberapa sering plugin ini mengambil data baru
       refreshed: Diperbarui
+      synced: Synced
       visit_docs: Kunjungi Dokumentasi
 
     # toast messages

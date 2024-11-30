@@ -83,6 +83,8 @@ it:
       cta: Vai ai Plugin
       connected: Connesso
       new_and_popular: Nuovi e Popolari
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Tempo risparmiato
       cta: Maggiori informazioni
@@ -226,6 +228,7 @@ it:
       refresh_rate: Frequenza di aggiornamento
       refresh_rate_hint: Definisce con quale frequenza questo plugin recupera dati aggiornati
       refreshed: Aggiornato
+      synced: Synced
       visit_docs: Guarda la Documentazione
 
     # toast messages

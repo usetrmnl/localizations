@@ -83,6 +83,8 @@ fr:
       cta: Accéder aux extensions
       connected: Connectée
       new_and_popular: Nouveau et populaire
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Temps économisé
       cta: À propos
@@ -226,6 +228,7 @@ fr:
       refresh_rate: Taux de rafraichissement
       refresh_rate_hint:  Défini la fréquence à laquelle cette instance de l'extension récupèrera les nouvelles données
       refreshed: Rafraichi
+      synced: Synced
       visit_docs: Visiter la documentation
 
     # toast messages

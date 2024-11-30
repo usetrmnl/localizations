@@ -83,6 +83,8 @@ de:
       cta: Erweiterungen anzeigen
       connected: Verbunden
       new_and_popular: Neu und populär
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Eingesparte Zeit
       cta: Mehr erfahren
@@ -226,6 +228,7 @@ de:
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
       refreshed: Aktualisiert
+      synced: Synced
       visit_docs: Dokumentation anzeigen
 
     # toast messages
