@@ -83,6 +83,8 @@ zh-CN:
       cta: 前往插件
       connected: 已连接
       new_and_popular: 热门插件
+    shop:
+      title: 店铺
     time_saved: # partial (widget)
       title: 节省时间
       cta: 详细信息
@@ -226,6 +228,7 @@ zh-CN:
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
       refreshed: 已刷新
+      synced: 已同步
       visit_docs: 查看文档
 
     # toast messages
