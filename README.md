@@ -25,3 +25,4 @@ collection of in-app labels, toast messages, and help messages to make [TRMNL](h
 - Korean via @i-say-young
 - Dutch via @huge10, @SjanPjer
 - Ukrainian via @veikus, @yankobogdan
+- Chinese via @MarkSong535
