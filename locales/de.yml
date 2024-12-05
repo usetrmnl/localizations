@@ -91,12 +91,12 @@ de:
   devices:
     edit:
       accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
-      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
-      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Options below require the __Developer add-on__.
+      developer_perks: Vorteile für Entwickler # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_name: Gerätename
       device_name_hint: Wir verwenden den Gerätenamen, um die TRMNL Benutzeroberfläche zu personalisieren.
       edit_device: Gerät bearbeiten
@@ -106,13 +106,13 @@ de:
       mirror: Spiegelung
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
-      ota_enabled: OTA Updates Enabled
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      ota_enabled: OTA-Updates aktiviert
+      ota_enabled_hint: Neue Firmware automatisch installieren. Deaktivieren Sie diese Option, um Ihre eigene Firmware zu verwenden.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate anpassen, um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
-      special_function: Special Function
-      special_function_hint: Set a double-click feature for the button on the back of your device.
-      special_function_learn_more: Learn more about special functions __here__.
+      special_function: Sonderfunktion
+      special_function_hint: Richten Sie eine Doppelklickfunktion für die Taste auf der Rückseite Ihres Geräts ein.
+      special_function_learn_more: Mehr zu den Sonderfunktionen erfahren Sie __hier__.
       unlink: Entkoppeln
       unlink_device: Gerät entkoppeln
       unlink_device_hint: Verbindung zu einem TRMNL Gerät entfernen, um es sicher zu verkaufen oder weiterzugeben.
@@ -144,7 +144,7 @@ de:
       error_not_shared: Die angegebene Gerätekennung ist nicht öffentlich
       error_oneself: Das eigene Gerät kann nicht gespiegelt werden
       success: Gerät %{friendly_id} erfolgreich gespiegelt
-      success_removed: Mirroring Removed
+      success_removed: Spiegelung entfernt
     switch:
       error: Fehler beim Wechseln des Gerätes
       success: Gerät erfolgreich gewechselt
@@ -182,25 +182,25 @@ de:
     search: # partial (search box)
       placeholder: Erweiterungen suchen
     my:
-      title: My Plugins
-      tagline: Develop Plugins for the public marketplace
-      submit_for_review: Submit for Review
+      title: Meine Plugins
+      tagline: Entwickeln Sie Plugins für den öffentlichen Marktplatz
+      submit_for_review: Zur Überprüfung einreichen
     new:
-      title: Create New Plugin
-      tagline: Enable other user to install your plugin.
+      title: Neues Plugin erstellen
+      tagline: Ermöglichen Sie anderen Benutzern, Ihr Plugin zu installieren.
       name: Name
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 40px*40px recommended
-      installation_url_hint: Learn more about the installation flow __here__.
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url_hint: Learn more about screen generation __here__.
+      description: Beschreibung
+      description_hint: Maximal 50 Zeichen
+      icon: Symbol
+      icon_hint: 40px*40px empfohlen
+      installation_url_hint: Erfahren Sie __hier__ mehr über den Installationsablauf.
+      management_url_hint: Erfahren Sie __hier__ mehr über den Management-Flow.
+      markup_url_hint: Erfahren Sie __hier__ mehr über die Bildschirmgenerierung.
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
+      title: Plugin bearbeiten
+      tagline: Aktualisieren Sie Ihre Plugin-Details.
       name: Name
-      description: Description
+      description: Beschreibung
   plugin_settings:
     active: Aktiv
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden, kann sie einfach von der Wiedergabeliste entfernt werden.
@@ -228,7 +228,7 @@ de:
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
       refreshed: Aktualisiert
-      synced: Synced
+      synced: Synchronisiert
       visit_docs: Dokumentation anzeigen
 
     # toast messages
@@ -241,10 +241,10 @@ de:
     update:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Plugin zur Playlist hinzugefügt
 
   upgrade:
     index:
-      title: "Upgrading device:"
-      tagline: Unlock custom plugins and more
-      pay: Pay # button text; ex "Pay $20"
+      title: „Gerät wird aktualisiert:“
+      tagline: Schalten Sie benutzerdefinierte Plugins und mehr frei
+      pay: Zahle # button text; ex "Pay $20"
