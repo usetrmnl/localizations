@@ -16,7 +16,7 @@ collection of in-app labels, toast messages, and help messages to make [TRMNL](h
 
 ## Credits
 
-- German via @ramdacxp, @philippbosch
+- German via @ramdacxp, @philippbosch, @yannicschuller
 - Spanish (Spain) via @joesfer
 - French via @theogiraudet
 - Indonesian via @Adekabang
