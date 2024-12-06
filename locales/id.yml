@@ -74,6 +74,7 @@ id:
       next_steps: Kami akan memberi tahu Anda jika ada perubahan
     news: # partial (widget)
       title: Berita
+      cta: View All
     playlists: # partial (widget)
       title: Daftar Putar
       cta: Ubah Daftar Putar

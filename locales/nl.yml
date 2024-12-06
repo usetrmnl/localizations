@@ -74,6 +74,7 @@ nl:
       next_steps: We informeren je als er iets verandert
     news: # partial (widget)
       title: Nieuws
+      cta: View All
     playlists: # partial (widget)
       title: Afspeellijsten
       cta: Ga naar afspeellijsten

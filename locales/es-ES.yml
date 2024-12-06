@@ -74,6 +74,7 @@ es-ES:
       next_steps: Te informaremos si algo cambia
     news: # partial (widget)
       title: Noticias
+      cta: View All
     playlists: # partial (widget)
       title: Lista de reproducción
       cta: Editar lista de reproducción

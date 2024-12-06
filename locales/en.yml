@@ -74,6 +74,7 @@ en:
       next_steps: We will inform you if anything changes
     news: # partial (widget)
       title: News
+      cta: View All
     playlists: # partial (widget)
       title: Playlist
       cta: Edit Playlist

@@ -74,6 +74,7 @@ ko:
       next_steps: 어떤 변화가 있다면 알림 드리겠습니다
     news: # partial (widget)
       title: 뉴스
+      cta: 모두 보기
     playlists: # partial (widget)
       title: 플레이리스트
       cta: 플레이리스트 더보기

@@ -74,6 +74,7 @@ zh-CN:
       next_steps: 若有进一步变化，将通知您
     news: # partial (widget)
       title: 通知
+      cta: View All
     playlists: # partial (widget)
       title: 播放列表
       cta: 修改播放列表

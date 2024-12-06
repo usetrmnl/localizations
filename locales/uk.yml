@@ -74,6 +74,7 @@ uk:
       next_steps: Ми повідомимо вас, якщо щось зміниться
     news: # partial (widget)
       title: Новини
+      cta: View All
     playlists: # partial (widget)
       title: Плейлисти
       cta: Перейти до плейлистів

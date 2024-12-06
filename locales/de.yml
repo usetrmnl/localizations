@@ -74,6 +74,7 @@ de:
       next_steps: Wir werden Sie über Änderungen informieren
     news: # partial (widget)
       title: Neuigkeiten
+      cta: View All
     playlists: # partial (widget)
       title: Wiedergabelisten
       cta: Wiedergabelisten anzeigen

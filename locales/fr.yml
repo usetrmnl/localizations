@@ -74,6 +74,7 @@ fr:
       next_steps: Nous vous informerons si quelque chose change
     news: # partial (widget)
       title: Nouveautés
+      cta: View All
     playlists: # partial (widget)
       title: Playlists
       cta: Accéder aux playlists
