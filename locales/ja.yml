@@ -48,6 +48,10 @@ ja:
       title: マイアカウント
       tagline: アカウント設定を管理する
       email_address: メールアドレス
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: TRMNLへのサインアップ時に使用し、システムメッセージを受信するメールアドレスです。
       first_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。

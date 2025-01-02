@@ -48,6 +48,10 @@ nl:
       title: Account
       tagline: Accountinstellingen beheren
       email_address: Emailadres
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: Gebruikt om in te loggen bij TRMNL en systeemberichten te ontvangen.
       first_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
       last_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.

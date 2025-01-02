@@ -48,6 +48,10 @@ ko:
       title: 내 계정
       tagline: 내 계정 설정 관리하기
       email_address: 이메일 주소
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: TRMNL에 가입할 때 쓰였고 시스템 메세지들을 받는 이메일.
       first_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 당신의 이름을 사용합니다.
       last_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 당신의 이름을 사용합니다.

@@ -47,6 +47,10 @@ zh-CN:
     index:
       title: 账号
       tagline: 修改账号设置
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address: Email
       email_address_hint: 用于登陆TRMNL和接收系统通知
       first_name_hint: 用于TRMNL界面

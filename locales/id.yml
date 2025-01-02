@@ -48,6 +48,10 @@ id:
       title: Akun
       tagline: Kelola pengaturan akun Anda
       email_address: Alamat Email
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: Digunakan untuk masuk ke TRMNL dan menerima pesan sistem.
       first_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
       last_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.

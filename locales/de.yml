@@ -48,6 +48,10 @@ de:
       title: Konto
       tagline: Verwalte deine Kontoeinstellungen
       email_address: Email Adresse
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: Wird für die TRMNL Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.

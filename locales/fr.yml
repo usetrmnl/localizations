@@ -48,6 +48,10 @@ fr:
       title: Compte
       tagline: Gérez vos paramètres de compte
       email_address: Adresse email
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address_hint: Utilisée pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.

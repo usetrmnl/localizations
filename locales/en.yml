@@ -47,6 +47,10 @@ en:
     index:
       title: Account
       tagline: Manage your account settings
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
       email_address: Email Address
       email_address_hint: Used to sign into TRMNL and receive system messages.
       first_name_hint: We use your name to make the TRMNL interface more comfortable.
