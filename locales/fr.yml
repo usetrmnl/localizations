@@ -27,7 +27,7 @@ fr:
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
-  loading: Loading
+  loading: Chargement
   login: Se connecter
   log_out: Se déconnecter
   minimum_characters: caractères minimums # ex: 8 characters minimum
@@ -48,10 +48,10 @@ fr:
       title: Compte
       tagline: Gérez vos paramètres de compte
       email_address: Adresse email
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
+      refer_and_earn: Parrainez et gagnez
+      refer_and_earn_hint: Offrez le cadeau TRMNL avec un coupon personnalisé. Gagnez par utilisation, payé mensuellement.
+      refer_and_earn_redemptions: Remboursements # how many times this coupon has been used
+      refer_and_earn_request_code: Demander un code
       email_address_hint: Utilisée pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.
@@ -63,7 +63,7 @@ fr:
 
     # toast messages
     update:
-      success: Profile mis à jour avec succès
+      success: Profil mis à jour avec succès
   dashboard:
     index:
       title: Tableau de bord
@@ -78,7 +78,7 @@ fr:
       next_steps: Nous vous informerons si quelque chose change
     news: # partial (widget)
       title: Nouveautés
-      cta: View All
+      cta: Voir tout
     playlists: # partial (widget)
       title: Playlists
       cta: Accéder aux playlists
@@ -89,7 +89,7 @@ fr:
       connected: Connectée
       new_and_popular: Nouveau et populaire
     shop:
-      title: Shop
+      title: Boutique
     time_saved: # partial (widget)
       title: Temps économisé
       cta: À propos
@@ -100,8 +100,8 @@ fr:
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise.
-      developer_perks: Avantages pour les Développeurs # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Les options ci-dessous requierent le __complément payant Developer__.
+      developer_perks: Avantages pour les développeurs # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
       device_name: Nom de l'appareil
       device_name_hint: Nous utilisons cela pour rendre l'interface de TRMNL plus agréable
       edit_device: Éditer l'appareil
@@ -115,12 +115,12 @@ fr:
       ota_enabled_hint: Installer automatiquement le nouveau firmware. Désactivez si vous souhaitez utiliser votre propre firmware.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
-      special_function: Fonction Spéciale
+      special_function: Fonction spéciale
       special_function_hint: Définissez une fonction de double-clic pour le bouton situé à l'arrière de votre appareil.
       special_function_learn_more: En apprendre plus à propos des fonctions spéciales __ici__.
       unlink: Dissocier
       unlink_device: Dissocier l'appareil
-      unlink_device_hint: Dissocier un appareil TRMNL permet de le revendre ou de le donner en toute sureté.
+      unlink_device_hint: Dissocier un appareil TRMNL permet de le revendre ou de le donner en toute sécurité.
       visibility: Visibilité
       visibility_hint: Mettre son appareil TRMNL en miroir en changeant la configuration ci-dessous.
       your_device: Votre TRMNL
@@ -149,7 +149,7 @@ fr:
       error_not_shared: L'appareil ciblé n'est pas visible
       error_oneself: Ne peut pas se mettre en miroir avec lui-même
       success: Appareil %{friendly_id} mis en miroir avec succès
-      success_removed: Mirroring Removed
+      success_removed: Mise en miroir supprimée
     switch:
       error: Erreur lors du changement d'appareil
       success: Appareil changé avec succès
@@ -188,21 +188,21 @@ fr:
       placeholder: Rechercher des extensions
     my:
       title: Mes extensions
-      tagline: Developpez des plugins pour le marketplace
+      tagline: Développez des plugins pour le marketplace
       submit_for_review: Soumettre pour revue
     new:
       title: Créer un nouveau plugin
       tagline: Permettre à d'autres d'installer votre plugin.
       name: Nom
       description: Description
-      description_hint: Maximum 50 characters
-      icon: Icone
+      description_hint: Maximum 50 caractères
+      icon: Icône
       icon_hint: 40px*40px recommandé
       installation_url_hint: En apprendre plus sur le processus d'installation __ici__.
-      management_url_hint: En apprendre plus sur le processus de gestion __ici.
+      management_url_hint: En apprendre plus sur le processus de gestion __ici__.
       markup_url_hint: En apprendre plus sur la génération d'écran __ici__.
     edit:
-      title: Editer l'extension
+      title: Éditer l'extension
       tagline: Mettre à jour les détails de votre extension.
       name: Nom
       description: Description
@@ -216,7 +216,7 @@ fr:
       back_to_plugin: Retour à %{plugin}
       back_to_plugins: Retour aux extensions
       connect_with: Se connecter avec %{plugin}
-      manage_plugin: Configure %{plugin}
+      manage_plugin: Configurer %{plugin}
       force_refresh: Forcer le rafraichissement
       force_refresh_hint: Cette fonctionnalité est conçue pour du test seulement - prière de ne pas en abuser.
       force_refresh_click_here: Cliquez ici
@@ -231,9 +231,9 @@ fr:
       plugin_uuid_hint: Utilisez ceci pour faire des requêtes à l'API Webhook.
       preview: Prévisualisation - votre appareil affichera les données actuelles
       refresh_rate: Taux de rafraichissement
-      refresh_rate_hint:  Défini la fréquence à laquelle cette instance de l'extension récupèrera les nouvelles données
+      refresh_rate_hint: Définit la fréquence à laquelle cette instance de l'extension récupérera les nouvelles données
       refreshed: Rafraichi
-      synced: Synced
+      synced: Synchronisé
       visit_docs: Visiter la documentation
 
     # toast messages
@@ -246,10 +246,10 @@ fr:
     update:
       success: Configuration de l'extension mise à jour avec succès
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Extension ajoutée à la playlist
 
   upgrade:
     index:
-      title: "Upgrading device:"
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
+      title: "Mettre à niveau l'appareil:"
+      tagline: Débloquez des extensions personnalisées et __plus__.
+      pay: Payer # button text; ex "Pay $20"
