@@ -219,7 +219,7 @@ de:
       back_to_plugin: Zurück zu %{plugin}
       back_to_plugins: Zurück zu den Erweiterungen
       connect_with: Verbinden mit %{plugin}
-      manage_plugin: %{plugin} konfigurieren
+      manage_plugin: "%{plugin} konfigurieren"
       force_refresh: Aktualisierung erzwingen
       force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
       force_refresh_click_here: Hier klicken
@@ -253,6 +253,6 @@ de:
 
   upgrade:
     index:
-      title: „Gerät wird aktualisiert:“
+      title: "Gerät wird aktualisiert:"
       tagline: Schalten Sie benutzerdefinierte Plugins und mehr frei
       pay: Zahle # button text; ex "Pay $20"
