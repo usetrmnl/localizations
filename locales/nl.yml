@@ -27,6 +27,7 @@ nl:
   keep_me_signed_in: Blijf ingelogd
   knowledge_base: Kennisbank
   last_name: Achternaam
+  loading: Loading
   login: Inloggen
   log_out: Uitloggen
   minimum_characters: karakters minimaal # ex: 8 characters minimum
@@ -47,6 +48,13 @@ nl:
       title: Account
       tagline: Accountinstellingen beheren
       email_address: Emailadres
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Gebruikt om in te loggen bij TRMNL en systeemberichten te ontvangen.
       first_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
       last_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
@@ -73,6 +81,7 @@ nl:
       next_steps: We informeren je als er iets verandert
     news: # partial (widget)
       title: Nieuws
+      cta: View All
     playlists: # partial (widget)
       title: Afspeellijsten
       cta: Ga naar afspeellijsten
@@ -82,14 +91,20 @@ nl:
       cta: Ga naar plugins
       connected: Verbonden
       new_and_popular: Nieuw en populair
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Tijd bespaard
       cta: Lees meer
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
-      battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren van 22u tot 6u.
+      battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Apparaatnaam
       device_name_hint: We gebruiken dit om de TRMNL interface meer comfortabel te maken
       edit_device: Apparaat bewerken
@@ -99,8 +114,13 @@ nl:
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Ontkoppelen
       unlink_device: Apparaat ontkoppelen
       unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je het veilig verkopen of aan iemand anders geven.
@@ -112,6 +132,10 @@ nl:
       tagline: Jouw TRMNL apparaten
       add_device_modal_title: Nieuw apparaat toevoegen
       add_first_device: Begin door jouw eerste apparaat toe te voegen!
+    new:
+      title: Nieuw apparaat toevoegen
+      description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
+      add_device: Nieuw apparaat toevoegen
 
     # toast messages
     associate:
@@ -128,6 +152,7 @@ nl:
       error_not_shared: Opgegeven aparaat ID is niet deelbaar
       error_oneself: Kan zichzelf niet spiegelen
       success: Apparaat %{friendly_id} succesvol gespiegeld
+      success_removed: Mirroring Removed
     switch:
       error: Fout bij wisselen apparaat
       success: Apparaat succesvol gewisseldy
@@ -164,6 +189,26 @@ nl:
       connected: Verbonden
     search: # partial (search box)
       placeholder: Zoeken binnen plugins
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for the public marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
   plugin_settings:
     active: Actief
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
@@ -174,6 +219,7 @@ nl:
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Forceer verversen
       force_refresh_hint: Deze functie is alleen ontworpen voor testdoeleinden - maak er geen misbruik van.
       force_refresh_click_here: Hier klikken
@@ -190,6 +236,7 @@ nl:
       refresh_rate: Refresh rate
       refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
       refreshed: Ververst
+      synced: Synced
       visit_docs: Bekijk Docs
 
     # toast messages
@@ -201,3 +248,11 @@ nl:
     handle_canceled_consent: Consent afgewezen, probeer het nogmaals
     update:
       success: Plugin configuratie is succesvol bijgewerkt
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"

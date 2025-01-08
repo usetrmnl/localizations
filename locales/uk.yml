@@ -27,6 +27,7 @@ uk:
   keep_me_signed_in: Залишатись у системі
   knowledge_base: База знань
   last_name: Прізвище
+  loading: Loading
   login: Вхід # TODO: Check context, maybe be "Увійти" або "Логін"?
   log_out: Вийти
   minimum_characters: мінімум символів # ex: 8 characters minimum
@@ -47,6 +48,13 @@ uk:
       title: Акаунт
       tagline: Налаштування аккаунту
       email_address: Єлектронна пошта
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Використовується для входу в TRMNL та для отримання системних повідомлень.
       first_name_hint: Ми використовуємо ваше ім'я, щоб зробити інтерфейс TRMNL більш зручним.
       last_name_hint: Ми використовуємо ваше прізвище, щоб зробити інтерфейс TRMNL більш зручним.
@@ -73,6 +81,7 @@ uk:
       next_steps: Ми повідомимо вас, якщо щось зміниться
     news: # partial (widget)
       title: Новини
+      cta: View All
     playlists: # partial (widget)
       title: Плейлисти
       cta: Перейти до плейлистів
@@ -82,14 +91,20 @@ uk:
       cta: Перейти до плагінів
       connected: Підключено
       new_and_popular: Нові та популярні
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Зекономлений час
       cta: Читати далі
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Назад до пристроїв
       battery_consumption: Споживання батареї
-      battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалішим часом роботи батареї, увімкнувши Режим сну з 22:00 до 6:00.
+      battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Назва пристрою
       device_name_hint: Ми використовуємо імʼя пристрою, щоб зробити інтерфейс TRMNL більш зручним
       edit_device: Змінити налаштування пристрою
@@ -99,8 +114,13 @@ uk:
       mirror: Відзеркалити
       mirror_device: Відзеркалити інший пристрій
       mirror_device_hint: Надайте ID пристрою з увімкненим спільним доступом, щоб дзеркалити його плейлист. Ваш плейлист також буде відображатися.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Відв'язати
       unlink_device: Відв'язати пристрій
       unlink_device_hint: Відв'язування пристрою TRMNL робить його безпечним для перепродажу або передачі іншій особі.
@@ -112,6 +132,10 @@ uk:
       tagline: Ваші пристрої TRMNL
       add_device_modal_title: Додати новий пристрій
       add_first_device: Почніть, додавши свій перший пристрій!
+    new:
+      title: Додати новий пристрій
+      description: Введіть ваш Дружній ID, щоб додати новий пристрій TRMNL до вашого акаунту.
+      add_device: Додати новий пристрій
 
     # toast messages
     associate:
@@ -128,6 +152,7 @@ uk:
       error_not_shared: Вказаний ідентифікатор пристрою не доступний для спільного доступу
       error_oneself: Неможливо віддзеркалити власний пристрій
       success: Пристрій %{friendly_id} успішно віддзеркалено
+      success_removed: Mirroring Removed
     switch:
       error: Помилка перемикання пристрою # TODO: Check the context
       success: Пристрій успішно перемкнено
@@ -164,6 +189,26 @@ uk:
       connected: Підключені
     search: # partial (search box)
       placeholder: Знайти плагіни
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for the public marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
   plugin_settings:
     active: Активний
     delete: Це повністю видалить налаштування плагіна. Щоб просто приховати цей плагін з вашого пристрою, видаліть його з плейлиста.
@@ -174,6 +219,7 @@ uk:
       back_to_plugin: Назад до %{plugin}
       back_to_plugins: Назад до Плагінів
       connect_with: Підключитися до %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Примусове Оновлення
       force_refresh_hint: Ця функція призначена лише для тестування - будь ласка, не зловживайте нею.
       force_refresh_click_here: Натисніть тут
@@ -190,6 +236,7 @@ uk:
       refresh_rate: Частота оновлення
       refresh_rate_hint: Оберіть, як часто цей екземпляр плагіна отримує свіжі дані
       refreshed: Оновлено
+      synced: Synced
       visit_docs: Переглянути Документацію
 
     # toast messages
@@ -201,3 +248,11 @@ uk:
     handle_canceled_consent: Згоду скасовано, будь ласка, спробуйте ще раз # TODO: Check the context
     update:
       success: Конфігурацію плагіна успішно оновлено
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"

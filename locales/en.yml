@@ -17,7 +17,7 @@ en:
   days: days
   delete: Delete
   device_id: Device ID
-  edit: Edit
+  edit: Settings
   email_address: Email address
   first_name: First Name
   forgot_password: I forgot my password # login form link
@@ -27,6 +27,7 @@ en:
   keep_me_signed_in: Keep me signed in
   knowledge_base: Knowledge base
   last_name: Last Name
+  loading: Loading
   login: Login
   log_out: Log out
   minimum_characters: characters minimum # ex: 8 characters minimum
@@ -47,6 +48,13 @@ en:
       title: Account
       tagline: Manage your account settings
       email_address: Email Address
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Used to sign into TRMNL and receive system messages.
       first_name_hint: We use your name to make the TRMNL interface more comfortable.
       last_name_hint: We use your name to make the TRMNL interface more comfortable.
@@ -73,34 +81,46 @@ en:
       next_steps: We will inform you if anything changes
     news: # partial (widget)
       title: News
+      cta: View All
     playlists: # partial (widget)
-      title: Playlists
-      cta: Go to Playlists
+      title: Playlist
+      cta: Edit Playlist
       pieces_of_content_displayed: Pieces of content displayed
     plugins: # partial (widget)
       title: Plugins
       cta: Go to Plugins
       connected: Connected
       new_and_popular: New and Popular
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Time saved
       cta: Read about
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Back to Devices
       battery_consumption: Battery Consumption
-      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode from 10p to 6a.
+      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the __Developer add-on__.
       device_name: Device Name
       device_name_hint: We use this to make the TRMNL interface more comfortable
       edit_device: Edit Device
       identify: Identify
       identify_device: Identify Device
-      identify_device_hint: Click the button below to show a screen on this device that helps you identify it.
+      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
       mirror: Mirror
       mirror_device: Mirror another Device
       mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
       unlink: Unlink
       unlink_device: Unlink Device
       unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
@@ -112,6 +132,10 @@ en:
       tagline: Your TRMNL devices
       add_device_modal_title: Add a new device
       add_first_device: Start by adding your first device!
+    new:
+      title: Add a new device
+      description: Enter your Device ID to add a new TRMNL device to your account.
+      add_device: Add new device
 
     # toast messages
     associate:
@@ -128,6 +152,7 @@ en:
       error_not_shared: Provided Device ID is not shareable
       error_oneself: Can't mirror oneself
       success: Device %{friendly_id} successfully mirrored
+      success_removed: Mirroring Removed
     switch:
       error: Error switching device
       success: Device switched successfully
@@ -144,7 +169,7 @@ en:
     playlist: # partial (single item)
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
       displayed_now: Displayed now
-      not_displayed_yet: Not Displayed Yet
+      not_displayed_yet: Pending
       remove_from_playlist: Remove from playlist
 
     # toast messages
@@ -164,6 +189,26 @@ en:
       connected: Connected
     search: # partial (search box)
       placeholder: Search Plugins
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for the public marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Other users will be able to install your plugin.
+      name: Name
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
   plugin_settings:
     active: Active
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
@@ -174,6 +219,7 @@ en:
       back_to_plugin: Back to %{plugin}
       back_to_plugins: Back to Plugins
       connect_with: Connect with %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Force Refresh
       force_refresh_hint: This feature is designed for testing only - please do not abuse it.
       force_refresh_click_here: Click here
@@ -190,6 +236,7 @@ en:
       refresh_rate: Refresh rate
       refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
       refreshed: Refreshed
+      synced: Synced
       visit_docs: Visit Docs
 
     # toast messages
@@ -201,3 +248,11 @@ en:
     handle_canceled_consent: Consent canceled, please try again
     update:
       success: Plugin configuration updated successfully
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"

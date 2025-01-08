@@ -1,4 +1,5 @@
 de:
+
   # global, logged out, and auth-related
   add: Hinzufügen
   add_new: Neu hinzufügen
@@ -22,10 +23,11 @@ de:
   forgot_password: Passwort vergessen # login form link
   forgot_password_title: Neues Passwort vergeben # heading on /password/new
   get_started: Lass uns loslegen!
-  identify: Anmeldung
+  identify: Identifizieren
   keep_me_signed_in: Angemeldet bleiben
   knowledge_base: Fragen und Antworten
   last_name: Nachname
+  loading: Loading
   login: Anmelden
   log_out: Abmelden
   minimum_characters: Zeichen Minimum # ex: 8 characters minimum
@@ -46,6 +48,13 @@ de:
       title: Konto
       tagline: Verwalte deine Kontoeinstellungen
       email_address: Email Adresse
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Wird für die TRMNL Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
@@ -72,6 +81,7 @@ de:
       next_steps: Wir werden Sie über Änderungen informieren
     news: # partial (widget)
       title: Neuigkeiten
+      cta: View All
     playlists: # partial (widget)
       title: Wiedergabelisten
       cta: Wiedergabelisten anzeigen
@@ -81,14 +91,20 @@ de:
       cta: Erweiterungen anzeigen
       connected: Verbunden
       new_and_popular: Neu und populär
+    shop:
+      title: Shop
     time_saved: # partial (widget)
       title: Eingesparte Zeit
       cta: Mehr erfahren
   devices:
     edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
-      battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus von 22:00 bis 06:00 Uhr.
+      battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
+      developer_perks: Vorteile für Entwickler # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_name: Gerätename
       device_name_hint: Wir verwenden den Gerätenamen, um die TRMNL Benutzeroberfläche zu personalisieren.
       edit_device: Gerät bearbeiten
@@ -98,8 +114,13 @@ de:
       mirror: Spiegelung
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
+      ota_enabled: OTA-Updates aktiviert
+      ota_enabled_hint: Neue Firmware automatisch installieren. Deaktivieren Sie diese Option, um Ihre eigene Firmware zu verwenden.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate anpassen, um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
+      special_function: Sonderfunktion
+      special_function_hint: Richten Sie eine Doppelklickfunktion für die Taste auf der Rückseite Ihres Geräts ein.
+      special_function_learn_more: Mehr zu den Sonderfunktionen erfahren Sie __hier__.
       unlink: Entkoppeln
       unlink_device: Gerät entkoppeln
       unlink_device_hint: Verbindung zu einem TRMNL Gerät entfernen, um es sicher zu verkaufen oder weiterzugeben.
@@ -111,6 +132,10 @@ de:
       tagline: Deine TRMNL Geräte
       add_device_modal_title: Neues Gerät hinzufügen
       add_first_device: Beginne mit dem Hinzufügen deines ersten Gerätes!
+    new:
+      title: Neues Gerät hinzufügen
+      description: Geben Sie Ihre Gerätekennung ein, um ein neues TRMNL-Gerät zu Ihrem Konto hinzuzufügen.
+      add_device: Neues Gerät hinzufügen
 
     # toast messages
     associate:
@@ -127,6 +152,7 @@ de:
       error_not_shared: Die angegebene Gerätekennung ist nicht öffentlich
       error_oneself: Das eigene Gerät kann nicht gespiegelt werden
       success: Gerät %{friendly_id} erfolgreich gespiegelt
+      success_removed: Spiegelung entfernt
     switch:
       error: Fehler beim Wechseln des Gerätes
       success: Gerät erfolgreich gewechselt
@@ -163,6 +189,26 @@ de:
       connected: Verbunden
     search: # partial (search box)
       placeholder: Erweiterungen suchen
+    my:
+      title: Meine Plugins
+      tagline: Entwickeln Sie Plugins für den öffentlichen Marktplatz
+      submit_for_review: Zur Überprüfung einreichen
+    new:
+      title: Neues Plugin erstellen
+      tagline: Ermöglichen Sie anderen Benutzern, Ihr Plugin zu installieren.
+      name: Name
+      description: Beschreibung
+      description_hint: Maximal 50 Zeichen
+      icon: Symbol
+      icon_hint: 40px*40px empfohlen
+      installation_url_hint: Erfahren Sie __hier__ mehr über den Installationsablauf.
+      management_url_hint: Erfahren Sie __hier__ mehr über den Management-Flow.
+      markup_url_hint: Erfahren Sie __hier__ mehr über die Bildschirmgenerierung.
+    edit:
+      title: Plugin bearbeiten
+      tagline: Aktualisieren Sie Ihre Plugin-Details.
+      name: Name
+      description: Beschreibung
   plugin_settings:
     active: Aktiv
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden, kann sie einfach von der Wiedergabeliste entfernt werden.
@@ -173,6 +219,7 @@ de:
       back_to_plugin: Zurück zu %{plugin}
       back_to_plugins: Zurück zu den Erweiterungen
       connect_with: Verbinden mit %{plugin}
+      manage_plugin: Configure %{plugin}
       force_refresh: Aktualisierung erzwingen
       force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
       force_refresh_click_here: Hier klicken
@@ -189,6 +236,7 @@ de:
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
       refreshed: Aktualisiert
+      synced: Synchronisiert
       visit_docs: Dokumentation anzeigen
 
     # toast messages
@@ -200,3 +248,11 @@ de:
     handle_canceled_consent: Zustimmung wurde nicht erteilt. Bitte erneut versuchen.
     update:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
+    add_to_playlist:
+      success: Plugin zur Playlist hinzugefügt
+
+  upgrade:
+    index:
+      title: „Gerät wird aktualisiert:“
+      tagline: Schalten Sie benutzerdefinierte Plugins und mehr frei
+      pay: Zahle # button text; ex "Pay $20"
