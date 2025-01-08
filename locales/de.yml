@@ -27,7 +27,7 @@ de:
   keep_me_signed_in: Angemeldet bleiben
   knowledge_base: Fragen und Antworten
   last_name: Nachname
-  loading: Loading
+  loading: Laden...
   login: Anmelden
   log_out: Abmelden
   minimum_characters: Zeichen Minimum # ex: 8 characters minimum
@@ -48,13 +48,13 @@ de:
       title: Konto
       tagline: Verwalte deine Kontoeinstellungen
       email_address: Email Adresse
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      refer_and_earn: Weiterempfehlen
+      refer_and_earn_hint: Empfehle TRMNL mit einem personalisierten Code weiter. Verdiene pro Einlösung, monatlich ausgezahlt.
+      refer_and_earn_redemptions: Einlösungen # how many times this coupon has been used
+      refer_and_earn_request_code: Empfehlungscode anfordern
+      device_invoice: Rechnungsdownload
+      device_invoice_label: Lade die Rechnung für den Kauf deines TRMNL als PDF herunter.
+      device_invoice_hint: Die Rechnungsnummer findest du auf der Statusseite der Sendungsverfolgung oder in der Versandstatus Email.
       email_address_hint: Wird für die TRMNL Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
@@ -98,7 +98,7 @@ de:
       cta: Mehr erfahren
   devices:
     edit:
-      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Beta Firmware # true/false toggle to receive new device updates before regular users
       accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
@@ -115,12 +115,12 @@ de:
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
       ota_enabled: OTA-Updates aktiviert
-      ota_enabled_hint: Neue Firmware automatisch installieren. Deaktivieren Sie diese Option, um Ihre eigene Firmware zu verwenden.
+      ota_enabled_hint: Neue Firmware automatisch installieren. Deaktiviere diese Option, um deine eigene Firmware zu verwenden.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate anpassen, um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
       special_function: Sonderfunktion
-      special_function_hint: Richten Sie eine Doppelklickfunktion für die Taste auf der Rückseite Ihres Geräts ein.
-      special_function_learn_more: Mehr zu den Sonderfunktionen erfahren Sie __hier__.
+      special_function_hint: Richte eine Doppelklickfunktion für die Taste auf der Rückseite deines Geräts ein.
+      special_function_learn_more: Mehr zu den Sonderfunktionen erfährst du __hier__.
       unlink: Entkoppeln
       unlink_device: Gerät entkoppeln
       unlink_device_hint: Verbindung zu einem TRMNL Gerät entfernen, um es sicher zu verkaufen oder weiterzugeben.
@@ -134,7 +134,7 @@ de:
       add_first_device: Beginne mit dem Hinzufügen deines ersten Gerätes!
     new:
       title: Neues Gerät hinzufügen
-      description: Geben Sie Ihre Gerätekennung ein, um ein neues TRMNL-Gerät zu Ihrem Konto hinzuzufügen.
+      description: Gib deine Gerätekennung ein, um ein neues TRMNL zu deinem Konto hinzuzufügen.
       add_device: Neues Gerät hinzufügen
 
     # toast messages
@@ -191,22 +191,22 @@ de:
       placeholder: Erweiterungen suchen
     my:
       title: Meine Plugins
-      tagline: Entwickeln Sie Plugins für den öffentlichen Marktplatz
+      tagline: Entwickele Plugins für den öffentlichen Marktplatz
       submit_for_review: Zur Überprüfung einreichen
     new:
       title: Neues Plugin erstellen
-      tagline: Ermöglichen Sie anderen Benutzern, Ihr Plugin zu installieren.
+      tagline: Ermögliche anderen Benutzern, dein Plugin zu installieren.
       name: Name
       description: Beschreibung
       description_hint: Maximal 50 Zeichen
       icon: Symbol
-      icon_hint: 40px*40px empfohlen
-      installation_url_hint: Erfahren Sie __hier__ mehr über den Installationsablauf.
-      management_url_hint: Erfahren Sie __hier__ mehr über den Management-Flow.
-      markup_url_hint: Erfahren Sie __hier__ mehr über die Bildschirmgenerierung.
+      icon_hint: 40*40 Pixel empfohlen
+      installation_url_hint: Erfahre __hier__ mehr über den Installationsablauf.
+      management_url_hint: Erfahre __hier__ mehr über den Management-Flow.
+      markup_url_hint: Erfahre __hier__ mehr über die Bildschirmgenerierung.
     edit:
       title: Plugin bearbeiten
-      tagline: Aktualisieren Sie Ihre Plugin-Details.
+      tagline: Aktualisiere Details deines Plugins.
       name: Name
       description: Beschreibung
   plugin_settings:
@@ -219,7 +219,7 @@ de:
       back_to_plugin: Zurück zu %{plugin}
       back_to_plugins: Zurück zu den Erweiterungen
       connect_with: Verbinden mit %{plugin}
-      manage_plugin: Configure %{plugin}
+      manage_plugin: %{plugin} konfigurieren
       force_refresh: Aktualisierung erzwingen
       force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
       force_refresh_click_here: Hier klicken
