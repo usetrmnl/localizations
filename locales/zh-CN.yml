@@ -47,11 +47,14 @@ zh-CN:
     index:
       title: 账号
       tagline: 修改账号设置
+      email_address: Email
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
       refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
       refer_and_earn_request_code: Request a Code
-      email_address: Email
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: 用于登陆TRMNL和接收系统通知
       first_name_hint: 用于TRMNL界面
       last_name_hint: 用于TRMNL界面

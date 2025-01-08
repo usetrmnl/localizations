@@ -52,6 +52,9 @@ id:
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
       refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
       refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Digunakan untuk masuk ke TRMNL dan menerima pesan sistem.
       first_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
       last_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
