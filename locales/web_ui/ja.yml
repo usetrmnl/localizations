@@ -63,6 +63,8 @@ ja:
       session_hint: 現在、%{user}でログインしています。
       time_zone: タイムゾーン（時間帯）
       time_zone_hint: デバイスの更新頻度やスリープモードを決定するために使用します。
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

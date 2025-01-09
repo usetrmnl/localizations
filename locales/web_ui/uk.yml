@@ -63,6 +63,8 @@ uk:
       session_hint: Ви увійшли як %{user}
       time_zone: Часовий пояс
       time_zone_hint: Визначає частоту оновлення та розклад сну пристрою.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

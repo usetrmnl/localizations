@@ -63,6 +63,8 @@ id:
       session_hint: Anda sedang masuk sebagai %{user}
       time_zone: Zona Waktu
       time_zone_hint: Menentukan penyegaran dan waktu tidur perangkat.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

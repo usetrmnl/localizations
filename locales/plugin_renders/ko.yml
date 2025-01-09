@@ -1,0 +1,21 @@
+ko:
+  # namespace to not interfere with other localizations
+  renders:
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    days_left_year:
+      title: 올해 남은 날
+      days_passed: 일 후
+      days_left: 남은 날
+
+    weather:
+      title: 날씨
+      temperature: 온도
+      feels_like: 체감온도
+      humidity: 습도
+      low: 최저
+      high: 최고
+      uv: 자외선
+      right_now: 지금
+      today: 오늘
+      tomorrow: 내일
