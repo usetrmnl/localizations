@@ -63,6 +63,8 @@ de:
       session_hint: Angemeldet als %{user}
       time_zone: Zeitzone
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

@@ -63,6 +63,8 @@ ko:
       session_hint: 현재 %{user}로 로그인 되어있습니다.
       time_zone: 시간대
       time_zone_hint: 기기 새로 고침 비율과 절전 모드를 결정하는데 쓰입니다.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:
@@ -253,6 +255,6 @@ ko:
 
   upgrade:
     index:
-      title: "Upgrading device:"
+      title: "기기 업그레이드:"
       tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"

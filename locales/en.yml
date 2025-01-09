@@ -63,6 +63,8 @@ en:
       session_hint: You're logged in as %{user}
       time_zone: Time Zone
       time_zone_hint: Determines refresh rates and device sleep time.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

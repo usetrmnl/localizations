@@ -63,6 +63,8 @@ zh-CN:
       session_hint: 当前登陆用户名：%{user}
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

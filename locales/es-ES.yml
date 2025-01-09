@@ -63,6 +63,8 @@ es-ES:
       session_hint: Estás conectado como %{user}
       time_zone: Zona horaria
       time_zone_hint: Determina la tasa de refresco y tiempo de suspensión del dispositivo.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

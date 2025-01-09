@@ -63,6 +63,8 @@ nl:
       session_hint: Je bent ingelogd als %{user}
       time_zone: Tijdzone
       time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:

@@ -63,6 +63,8 @@ fr:
       session_hint: Vous êtes connecté·e en tant que %{user}
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraichissement et le temps de veille de l'appareil.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
 
     # toast messages
     update:
