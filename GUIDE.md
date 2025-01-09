@@ -42,6 +42,8 @@ to ensure this repository's YML files are in parity with our website, we now sup
 
 this adds context for which localization phrases are used, and where. you may also visit your Account > Locale > set to "raw" and then click around the app.
 
+finally, make a copy of either `locales/web_ui/en.yml` or `locales/plugin_renders/en.yml` and create a new file in the same directory, `locales/your-lang-code.yml`. submit a pull request and ask questions if you need help.
+
 ## general tips
 
 we understand not all languages support casing. we also understand some languages (ex: Korean) support levels of formality. and finally there are languages with gendered nouns, from Spanish to German. in general we prefer a casual tone with simple vocabulary. this matches the spirit of our brand and makes TRMNL comfortable for people all around the world.
