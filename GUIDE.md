@@ -37,6 +37,8 @@ however this approach was cumbersome. if our interface changed or new phrases we
 
 to ensure this repository's YML files are in parity with our website, we now support a `raw` locale that can be enabled while creating localizations.
 
+<kbd>![trmnl-localizations-raw-locale-example](https://github.com/usetrmnl/localizations/blob/master/support/raw_locale_example.png)</kbd>
+
 1. visit any TRMNL web page, for example `https://usetrmnl.com/dashboard`
 2. add `?locale=raw` to the URL and refresh the page
 
