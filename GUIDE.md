@@ -49,6 +49,8 @@ https://usetrmnl.com/plugins/demo
 
 then add the same `?locale=raw` param to the URL and refresh to spot the available localization phrases.
 
+<kbd>![trmnl-localizations-raw-locale-plugin-example](https://github.com/usetrmnl/localizations/blob/master/support/raw_plugin_example.png)</kbd>
+
 when you're ready, make a copy of either `locales/web_ui/en.yml` or `locales/plugin_renders/en.yml` and create a new file in the same directory, `locales/your-lang-code.yml`. submit a pull request and ask questions if you need help.
 
 ## general tips
