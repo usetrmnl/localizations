@@ -13,8 +13,8 @@ pt-BR:
       temperature: Temperatura
       feels_like: Sensação Térmica
       humidity: Humidade
-      low: Baixa
-      high: Alta
+      low: Mínima
+      high: Máxima
       uv: UV
       right_now: Agora
       today: Hoje
