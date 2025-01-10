@@ -1,0 +1,260 @@
+pt-BR:
+
+  # global, logged out, and auth-related
+  add: Add
+  add_new: Add new
+  already_have_account: I already have an account # signup form cta
+  back: Back
+  buy_now: Buy Now
+  cancel: Cancel
+  change_password: Change Password
+  charge_level: Charge Level
+  charged: charged
+  close: Close
+  confirm_change_password: Change my password
+  confirm_password: Confirm new password
+  create_an_account: Create an account # login form cta
+  days: days
+  delete: Delete
+  device_id: Device ID
+  edit: Settings
+  email_address: Email address
+  first_name: First Name
+  forgot_password: I forgot my password # login form link
+  forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  get_started: Let's get you started!
+  identify: Identify
+  keep_me_signed_in: Keep me signed in
+  knowledge_base: Knowledge base
+  last_name: Last Name
+  loading: Loading
+  login: Login
+  log_out: Log out
+  minimum_characters: characters minimum # ex: 8 characters minimum
+  mins: mins # 'minutes' abbreviation
+  new_password: New password
+  password: Password
+  reset_password: Reset my password
+  sign_in: Sign in # login form cta
+  sign_up: Sign up # logged out navigation
+  save: Save
+  update: Update
+  view: View
+  welcome: Welcome # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Account
+      tagline: Manage your account settings
+      email_address: Email Address
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      email_address_hint: Used to sign into TRMNL and receive system messages.
+      first_name_hint: We use your name to make the TRMNL interface more comfortable.
+      last_name_hint: We use your name to make the TRMNL interface more comfortable.
+      password_hint: Used to protect your TRMNL account.
+      session: Session
+      session_hint: You're logged in as %{user}
+      time_zone: Time Zone
+      time_zone_hint: Determines refresh rates and device sleep time.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
+
+    # toast messages
+    update:
+      success: Profile updated successfully
+  dashboard:
+    index:
+      title: Dashboard
+      last_7_days: Last 7 days
+      last_30_days: Last 30 days
+      last_90_days: Last 90 days
+      today: Today
+      yesterday: Yesterday
+    health: # partial (widget)
+      bad: Plugins are experiencing issues
+      good: Plugins are healthy
+      next_steps: We will inform you if anything changes
+    news: # partial (widget)
+      title: News
+      cta: View All
+    playlists: # partial (widget)
+      title: Playlist
+      cta: Edit Playlist
+      pieces_of_content_displayed: Pieces of content displayed
+    plugins: # partial (widget)
+      title: Plugins
+      cta: Go to Plugins
+      connected: Connected
+      new_and_popular: New and Popular
+    shop:
+      title: Shop
+    time_saved: # partial (widget)
+      title: Time saved
+      cta: Read about
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      back_to_devices: Back to Devices
+      battery_consumption: Battery Consumption
+      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the __Developer add-on__.
+      device_name: Device Name
+      device_name_hint: We use this to make the TRMNL interface more comfortable
+      edit_device: Edit Device
+      identify: Identify
+      identify_device: Identify Device
+      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
+      mirror: Mirror
+      mirror_device: Mirror another Device
+      mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      sleep_mode: Sleep Mode
+      sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
+      unlink: Unlink
+      unlink_device: Unlink Device
+      unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
+      visibility: Visibility
+      visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
+      your_device: Your TRMNL
+    index:
+      title: Devices
+      tagline: Your TRMNL devices
+      add_device_modal_title: Add a new device
+      add_first_device: Start by adding your first device!
+    new:
+      title: Add a new device
+      description: Enter your Device ID to add a new TRMNL device to your account.
+      add_device: Add new device
+
+    # toast messages
+    associate:
+      error: Error linking device
+      success: Device successfully linked
+    dissociate:
+      error: Error disconnecting device
+      success: Device successfully unlinked
+    identify:
+      error: Error updating device
+      success: Device identification requested
+    mirror:
+      error: Error mirroring device
+      error_not_shared: Provided Device ID is not shareable
+      error_oneself: Can't mirror oneself
+      success: Device %{friendly_id} successfully mirrored
+      success_removed: Mirroring Removed
+    switch:
+      error: Error switching device
+      success: Device switched successfully
+    update:
+      error: Error updating device
+      success: "%{device} device settings updated successfully"
+  playlists:
+    index:
+      title: Playlist
+      tagline: Choose what's shown on
+      add_first_device_cta: Start by __adding__ your first TRMNL device!
+      add_to_playlist: Add to Playlist
+      create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
+    playlist: # partial (single item)
+      delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
+      displayed_now: Displayed now
+      not_displayed_yet: Pending
+      remove_from_playlist: Remove from playlist
+
+    # toast messages
+    create:
+      error: Failed to update playlist
+      success: Playlist updated
+    destroy:
+      error: Error removing item from playlist
+      success: Plugin removed from Playlist
+    update:
+      success: Playlist order updated
+  plugins:
+    index:
+      title: Plugins
+      tagline: What will you put on your TRMNL?
+      available: Available
+      connected: Connected
+    search: # partial (search box)
+      placeholder: Search Plugins
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for the public marketplace
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Other users will be able to install your plugin.
+      name: Name
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url_hint: Learn more about the installation flow __here__.
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url_hint: Learn more about screen generation __here__.
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+  plugin_settings:
+    active: Active
+    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
+    inactive: Inactive
+    no_plugin_settings_found: No plugin settings found. # empty state - should not appear
+    form:
+      active_hint: Show or hide this plugin instance on your device
+      back_to_plugin: Back to %{plugin}
+      back_to_plugins: Back to Plugins
+      connect_with: Connect with %{plugin}
+      manage_plugin: Configure %{plugin}
+      force_refresh: Force Refresh
+      force_refresh_hint: This feature is designed for testing only - please do not abuse it.
+      force_refresh_click_here: Click here
+      force_refresh_click_here_hint: to generate a new screen immediately
+      learn_more: Learn about this plugin in our knowledge base
+      link_oauth: Link Account
+      link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
+      multiple_instances_hint: This plugin supports multiple instances.
+      name: Name
+      name_hint: Give it a name for easy reference
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Use this to make Webhook API requests.
+      preview: Preview - your device will show actual data
+      refresh_rate: Refresh rate
+      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
+      refreshed: Refreshed
+      synced: Synced
+      visit_docs: Visit Docs
+
+    # toast messages
+    create:
+      success: Plugin created and added to your
+      playlist: playlist
+    destroy:
+      success: Plugin deleted
+    handle_canceled_consent: Consent canceled, please try again
+    update:
+      success: Plugin configuration updated successfully
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"
