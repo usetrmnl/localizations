@@ -172,7 +172,7 @@ de:
       error: Fehler beim Trennen des Gerätes
       success: Gerät erfolgreich getrennt
     identify:
-      error: Fehler beim Indentifizieren des Gerätes
+      error: Fehler beim Identifizieren des Gerätes
       success: Geräteidentifizierung angefordert
     mirror:
       error: Fehler beim Spiegeln des Gerätes
