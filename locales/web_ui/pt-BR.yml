@@ -5,6 +5,8 @@ pt-BR:
   add_new: Add new
   already_have_account: I already have an account # signup form cta
   back: Back
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
   buy_now: Buy Now
   cancel: Cancel
   change_password: Change Password
@@ -13,17 +15,24 @@ pt-BR:
   close: Close
   confirm_change_password: Change my password
   confirm_password: Confirm new password
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
   create_an_account: Create an account # login form cta
+  current_device: Current device
   days: days
   delete: Delete
+  developer_edition_required: Developer edition is required to enable this feature.
   device_id: Device ID
   edit: Settings
   email_address: Email address
+  fetching: Fetching # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
   first_name: First Name
   forgot_password: I forgot my password # login form link
   forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Let's get you started!
   identify: Identify
+  integrations: Integrations
   keep_me_signed_in: Keep me signed in
   knowledge_base: Knowledge base
   last_name: Last Name
@@ -32,12 +41,17 @@ pt-BR:
   log_out: Log out
   minimum_characters: characters minimum # ex: 8 characters minimum
   mins: mins # 'minutes' abbreviation
+  my_playlist: My Playlist # default name for a new playlist group
   new_password: New password
   password: Password
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
+  save: Save
+  section: Section
   sign_in: Sign in # login form cta
   sign_up: Sign up # logged out navigation
-  save: Save
+  something_went_wrong: Something went wrong
   update: Update
   view: View
   welcome: Welcome # login form heading
@@ -59,6 +73,10 @@ pt-BR:
       first_name_hint: We use your name to make the TRMNL interface more comfortable.
       last_name_hint: We use your name to make the TRMNL interface more comfortable.
       password_hint: Used to protect your TRMNL account.
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       session: Session
       session_hint: You're logged in as %{user}
       time_zone: Time Zone
@@ -72,6 +90,9 @@ pt-BR:
   dashboard:
     index:
       title: Dashboard
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
       last_7_days: Last 7 days
       last_30_days: Last 30 days
       last_90_days: Last 90 days
@@ -107,12 +128,16 @@ pt-BR:
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
       developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Options below require the __Developer add-on__.
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
       device_name: Device Name
       device_name_hint: We use this to make the TRMNL interface more comfortable
       edit_device: Edit Device
       identify: Identify
       identify_device: Identify Device
       identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
       mirror: Mirror
       mirror_device: Mirror another Device
       mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
@@ -161,13 +186,52 @@ pt-BR:
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump # content
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
   playlists:
     index:
       title: Playlist
       tagline: Choose what's shown on
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
       add_first_device_cta: Start by __adding__ your first TRMNL device!
       add_to_playlist: Add to Playlist
       create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
+      display_period_from: Display from
+      display_period_to: to
     playlist: # partial (single item)
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
       displayed_now: Displayed now
@@ -189,30 +253,48 @@ pt-BR:
       tagline: What will you put on your TRMNL?
       available: Available
       connected: Connected
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
     search: # partial (search box)
       placeholder: Search Plugins
     my:
       title: My Plugins
       tagline: Develop Plugins for the public marketplace
+      connections: connections
+      edit: Edit
+      install: Install
+      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
       submit_for_review: Submit for Review
     new:
       title: Create New Plugin
       tagline: Other users will be able to install your plugin.
       name: Name
+      category: Category
       description: Description
       description_hint: Maximum 50 characters
       icon: Icon
       icon_hint: 40px*40px recommended
+      installation_url: Installation URL
       installation_url_hint: Learn more about the installation flow __here__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
       management_url_hint: Learn more about the management flow __here__.
+      markup_url: Plugin Markup URL
       markup_url_hint: Learn more about screen generation __here__.
+      uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
       title: Edit Plugin
       tagline: Update your plugin details.
       name: Name
       description: Description
+  plugin_recipes:
+    new:
+      error: Recipe not found
   plugin_settings:
     active: Active
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
     inactive: Inactive
     no_plugin_settings_found: No plugin settings found. # empty state - should not appear
@@ -221,12 +303,15 @@ pt-BR:
       back_to_plugin: Back to %{plugin}
       back_to_plugins: Back to Plugins
       connect_with: Connect with %{plugin}
+      disconnect_account: Disconnect Account
       manage_plugin: Configure %{plugin}
       force_refresh: Force Refresh
       force_refresh_hint: This feature is designed for testing only - please do not abuse it.
       force_refresh_click_here: Click here
       force_refresh_click_here_hint: to generate a new screen immediately
       learn_more: Learn about this plugin in our knowledge base
+      linked_account: Linked Account
+      linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Link Account
       link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
       multiple_instances_hint: This plugin supports multiple instances.
@@ -238,6 +323,8 @@ pt-BR:
       refresh_rate: Refresh rate
       refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
       refreshed: Refreshed
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: Visit Docs
 
@@ -258,3 +345,8 @@ pt-BR:
       title: "Upgrading device:"
       tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"
+      error: Device %{device_name} is already upgraded, switch to another device
+
+    # toast messages
+    confirm:
+      success: Developer edition add-on is now enabled
