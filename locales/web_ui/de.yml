@@ -5,6 +5,8 @@ de:
   add_new: Neu hinzufügen
   already_have_account: Ich besitze bereits ein Konto # signup form cta
   back: Zurück
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
   buy_now: Jetzt kaufen
   cancel: Abbrechen
   change_password: Passwort ändern
@@ -13,17 +15,24 @@ de:
   close: Schließen
   confirm_change_password: Passwort ändern
   confirm_password: Passwort wiederholen
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
   create_an_account: Konto erstellen # login form cta
+  current_device: Current device
   days: Tage
   delete: Löschen
+  developer_edition_required: Developer edition is required to enable this feature.
   device_id: Gerätekennung
   edit: Ändern
   email_address: Email Adresse
+  fetching: Fetching
   first_name: Vorname
   forgot_password: Passwort vergessen # login form link
   forgot_password_title: Neues Passwort vergeben # heading on /password/new
   get_started: Lass uns loslegen!
   identify: Identifizieren
+  integrations: Integrations
   keep_me_signed_in: Angemeldet bleiben
   knowledge_base: Fragen und Antworten
   last_name: Nachname
@@ -32,12 +41,17 @@ de:
   log_out: Abmelden
   minimum_characters: Zeichen Minimum # ex: 8 characters minimum
   mins: Minuten # 'minutes' abbreviation
+  my_playlist: My Playlist
   new_password: Neues Passwort
   password: Passwort
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Passwort zurücksetzen
+  save: Speichern
+  section: Section
   sign_in: Anmelden # login form cta
   sign_up: Registrieren # logged out navigation
-  save: Speichern
+  something_went_wrong: Something went wrong
   update: Aktualisieren
   view: Ansicht
   welcome: Willkommen # login form heading
@@ -59,6 +73,10 @@ de:
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
       password_hint: Wird verwendet, um dein TRMNL Konto zu schützen.
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       session: Sitzung
       session_hint: Angemeldet als %{user}
       time_zone: Zeitzone
@@ -72,6 +90,9 @@ de:
   dashboard:
     index:
       title: Dashboard
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
       last_7_days: Letzte 7 Tage
       last_30_days: Letzte 30 Tage
       last_90_days: Letzte 90 Tage
@@ -107,12 +128,16 @@ de:
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
       developer_perks: Vorteile für Entwickler # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
       device_name: Gerätename
       device_name_hint: Wir verwenden den Gerätenamen, um die TRMNL Benutzeroberfläche zu personalisieren.
       edit_device: Gerät bearbeiten
       identify: Identifizierung
       identify_device: Gerät identifizieren
       identify_device_hint: Durch Klick auf folgende Schaltfläche werden auf dem Gerät Informationen zur Identifikation angezeigt.
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
       mirror: Spiegelung
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
@@ -161,13 +186,52 @@ de:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: "Einstellungen von %{device} erfolgreich aktualisiert"
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump # content
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
   playlists:
     index:
       title: Wiedergabeliste
       tagline: Was soll auf dem Gerät angezeigt werden?
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
       add_first_device_cta: Beginne mit dem __Hinzufügen__ des ersten TRMNL Gerätes!
       add_to_playlist: Zu Wiedergabeliste hinzufügen
       create_first_playlist_cta: Erste Erweiterung __verbinden__ um eine Wiedergabeliste zu starten!
+      display_period_from: Display from
+      display_period_to: to
     playlist: # partial (single item)
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
       displayed_now: Wird angezeigt
@@ -189,30 +253,48 @@ de:
       tagline: Was soll auf dem TRMNL angezeigt werden?
       available: Verfügbar
       connected: Verbunden
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
     search: # partial (search box)
       placeholder: Erweiterungen suchen
     my:
       title: Meine Plugins
       tagline: Entwickele Plugins für den öffentlichen Marktplatz
+      connections: connections
+      edit: Edit
+      install: Install
+      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
       submit_for_review: Zur Überprüfung einreichen
     new:
       title: Neues Plugin erstellen
       tagline: Ermögliche anderen Benutzern, dein Plugin zu installieren.
       name: Name
+      category: Category
       description: Beschreibung
       description_hint: Maximal 50 Zeichen
       icon: Symbol
       icon_hint: 40*40 Pixel empfohlen
+      installation_url: Installation URL
       installation_url_hint: Erfahre __hier__ mehr über den Installationsablauf.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
       management_url_hint: Erfahre __hier__ mehr über den Management-Flow.
+      markup_url: Plugin Markup URL
       markup_url_hint: Erfahre __hier__ mehr über die Bildschirmgenerierung.
+      uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
       title: Plugin bearbeiten
       tagline: Aktualisiere Details deines Plugins.
       name: Name
       description: Beschreibung
+  plugin_recipes:
+    new:
+      error: Recipe not found
   plugin_settings:
     active: Aktiv
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden, kann sie einfach von der Wiedergabeliste entfernt werden.
     inactive: Inaktiv
     no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden. # empty state - should not appear
@@ -221,12 +303,15 @@ de:
       back_to_plugin: Zurück zu %{plugin}
       back_to_plugins: Zurück zu den Erweiterungen
       connect_with: Verbinden mit %{plugin}
+      disconnect_account: Disconnect Account
       manage_plugin: "%{plugin} konfigurieren"
       force_refresh: Aktualisierung erzwingen
       force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
       force_refresh_click_here: Hier klicken
       force_refresh_click_here_hint: um die Anzeige sofort zu aktualisieren
       learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
+      linked_account: Linked Account
+      linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Konto verknüpfen
       link_oauth_hint: Um fortzufahren, muss eine Kontoverknüpfung mit %{plugin} hergestellt werden
       multiple_instances_hint: Diese Erweiterung unterstützt mehrere Instanzen.
@@ -238,6 +323,8 @@ de:
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
       refreshed: Aktualisiert
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synchronisiert
       visit_docs: Dokumentation anzeigen
 
@@ -258,3 +345,8 @@ de:
       title: "Gerät wird aktualisiert:"
       tagline: Schalten Sie benutzerdefinierte Plugins und mehr frei
       pay: Zahle # button text; ex "Pay $20"
+      error: Device %{device_name} is already upgraded, switch to another device
+
+    # toast messages
+    confirm:
+      success: Developer edition add-on is now enabled

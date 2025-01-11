@@ -5,6 +5,8 @@ ja:
   add_new: 新規追加
   already_have_account: すでにアカウントをお持ちです # signup form cta
   back: 戻る
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
   buy_now: 今すぐ購入
   cancel: キャンセル
   change_password: パスワード変更
@@ -13,17 +15,24 @@ ja:
   close: 閉じる
   confirm_change_password: パスワードを変更する
   confirm_password: 新しいパスワードを確認
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
   create_an_account: アカウントを作成する # login form cta
+  current_device: Current device
   days: 日
   delete: 削除
+  developer_edition_required: Developer edition is required to enable this feature.
   device_id: デバイスID
   edit: 編集
   email_address: メールアドレス
+  fetching: Fetching
   first_name: 名前
   forgot_password: パスワードを忘れました # login form link
   forgot_password_title: さあ、再スタートです # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 始めましょう！
   identify: 確認する
+  integrations: Integrations
   keep_me_signed_in: サインイン状態を維持する
   knowledge_base: 説明書
   last_name: 姓
@@ -32,12 +41,17 @@ ja:
   log_out: ログアウト
   minimum_characters: 最小文字数 # ex: 8 characters minimum
   mins: 分 # 'minutes' abbreviation
+  my_playlist: My Playlist
   new_password: 新しいパスワード
   password: パスワード
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: パスワードをリセット
+  save: 保存
+  section: Section
   sign_in: サインインする # login form cta
   sign_up: サインアップ # logged out navigation
-  save: 保存
+  something_went_wrong: Something went wrong
   update: 更新
   view: 表示
   welcome: ようこそ # login form heading
@@ -59,6 +73,10 @@ ja:
       first_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       password_hint: TRMNLアカウントを保護するために使用します。
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       session: セッション
       session_hint: 現在、%{user}でログインしています。
       time_zone: タイムゾーン（時間帯）
@@ -72,6 +90,9 @@ ja:
   dashboard:
     index:
       title: ダッシュボード
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
       last_7_days: 過去7日間
       last_30_days: 過去30日間
       last_90_days: 過去90日間
@@ -107,12 +128,16 @@ ja:
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
       developer_perks: 開発者向け特典 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
       device_name: デバイス名
       device_name_hint: TRMNLインターフェースをより快適に使用するためです。
       edit_device: デバイスを編集
       identify: 確認する
       identify_device: デバイスを確認する
       identify_device_hint: どのデバイスかを簡単に識別するために、以下のボタンを押してどの画面が表示されているか確認してください。
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
       mirror: ミラーモード
       mirror_device: 他のデバイスにミラーモードを適用する
       mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
@@ -161,13 +186,52 @@ ja:
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump # content
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
   playlists:
     index:
       title: プレイリスト
       tagline: 画面に表示するものを選んでください
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
       add_first_device_cta: 始めるには最初のTRMNLデバイスを__追加__してください！
       add_to_playlist: プレイリストに追加
       create_first_playlist_cta: プレイリストを作成するには最初のプラグインを__接続__してください！
+      display_period_from: Display from
+      display_period_to: to
     playlist: # partial (single item)
       delete: このプラグインを削除しますか？プラグインの接続は維持されますが、デバイスには表示されなくなります。
       displayed_now: 今表示中
@@ -189,30 +253,48 @@ ja:
       tagline: TRMNLに何を表示しますか？
       available: 利用可能なプラグイン
       connected: 接続済み
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
     search: # partial (search box)
       placeholder: プラグインを検索
     my:
       title: My Plugins
       tagline: Develop Plugins for the public marketplace
+      connections: connections
+      edit: Edit
+      install: Install
+      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
       submit_for_review: Submit for Review
     new:
       title: Create New Plugin
       tagline: Enable other user to install your plugin.
       name: Name
+      category: Category
       description: Description
       description_hint: Maximum 50 characters
       icon: Icon
       icon_hint: 40px*40px recommended
+      installation_url: Installation URL
       installation_url_hint: Learn more about the installation flow __here__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
       management_url_hint: Learn more about the management flow __here__.
+      markup_url: Plugin Markup URL
       markup_url_hint: Learn more about screen generation __here__.
+      uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
       title: Edit Plugin
       tagline: Update your plugin details.
       name: Name
       description: Description
+  plugin_recipes:
+    new:
+      error: Recipe not found
   plugin_settings:
     active: アクティブ
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
     delete: プラグインの設定を完全に削除します。デバイスからプラグインを単に隠したいだけなら、プレイリストから削除してください。
     inactive: 非アクティブ
     no_plugin_settings_found: プラグインが見つかりません。 # empty state - should not appear
@@ -221,12 +303,15 @@ ja:
       back_to_plugin: "%{plugin}に戻る"
       back_to_plugins: プラグイン管理に戻る
       connect_with: "%{plugin}を接続"
+      disconnect_account: Disconnect Account
       manage_plugin: Configure %{plugin}
       force_refresh: 強制リフレッシュ
       force_refresh_hint: この機能はテスト目的です。乱用しないでください。
       force_refresh_click_here: ここをクリック
       force_refresh_click_here_hint: 即座に新しい画面を再生します
       learn_more: このプラグインについてもっと知りたい場合は、ドキュメントをご参照ください
+      linked_account: Linked Account
+      linked_account_success: Successfully
       link_oauth: アカウント接続
       link_oauth_hint: 続行する前に、この%{plugin}が提供する保護された認証手順に従ってください。
       multiple_instances_hint: このプラグインは複数のインスタンスをサポートしています。
@@ -238,6 +323,8 @@ ja:
       refresh_rate: リフレッシュ頻度
       refresh_rate_hint: このプラグインインスタンスがどれくらい頻繁に新しいデータを取得するかを決定します
       refreshed: リフレッシュ完了
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: ドキュメントを開く
 
@@ -258,3 +345,8 @@ ja:
       title: "Upgrading device:"
       tagline: Unlock custom plugins and __more__.
       pay: Pay # button text; ex "Pay $20"
+      error: Device %{device_name} is already upgraded, switch to another device
+
+    # toast messages
+    confirm:
+      success: Developer edition add-on is now enabled
