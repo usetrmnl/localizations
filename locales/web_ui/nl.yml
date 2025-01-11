@@ -267,7 +267,7 @@ nl:
       submit_for_review: Indienen ter beoordeling
     new:
       title: Nieuwe plugin maken
-      tagline: Sta andere gebruikers to je plugin the installeren
+      tagline: Sta andere gebruikers to je plugin te installeren.
       name: Naam
       category: Categorie
       description: Beschrijving
