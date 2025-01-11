@@ -15,12 +15,13 @@ collection of in-app labels, toast messages, and help messages to make [TRMNL](h
 ## Credits
 
 - German via @ramdacxp, @philippbosch, @yannicschuller
-- Spanish (Spain) via @joesfer
+- Spanish (Spain) via @joesfer, @jeff-foster
 - French via @theogiraudet
 - Indonesian via @Adekabang
 - Italian via @danieleb-podero
 - Japanese via Hiroyuki Miyoshi
 - Korean via @i-say-young
+- Portuguese via @danielsitnik
 - Dutch via @huge10, @SjanPjer
 - Ukrainian via @veikus, @yankobogdan
 - Chinese via @MarkSong535
