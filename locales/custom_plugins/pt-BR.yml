@@ -3,5 +3,5 @@ pt-BR:
   custom_plugins:
 
     # generic words and phrases to make custom plugins more accessible
-    today: today
-    tomorrow: tomorrow
+    today: hoje
+    tomorrow: amanhã
