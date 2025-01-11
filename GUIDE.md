@@ -1,5 +1,5 @@
 # TRMNL localizations guide
-overview of our web application interface and plugin renders for higher context translations.
+overview of our web application, plugin renders, and custom plugin dictionary for higher context contributions.
 
 ## web application
 TRMNL leverages YAML formatted files with a resource-based hierarchy. content on the Account page (`/account`) is thus nested:
@@ -29,6 +29,24 @@ days_left_year:
   days_passed: Days Passed
   days_left: Days Left
 ```
+
+plugin render localizations are more useful than web application contributions, as TRMNL generates millions of screens every month.
+
+## custom plugins
+TRMNL lets users build their own plugins, which they may want to share with others.
+
+```
+es-ES:
+  # namespace to not interfere with other localizations
+  custom_plugins:
+
+    # generic words and phrases to make custom plugins more accessible
+    today: hoy
+    tomorrow: mañana
+  ```
+
+learn how users can leverage this dictionary here:
+https://help.usetrmnl.com/en/articles/10347358-custom-plugin-filters
 
 ## how to provide localizations
 in [a previous version](https://github.com/usetrmnl/localizations/blob/87c0ce5b4b71bff2f80346065aa50a5ce7a7e050/GUIDE.md) of this guide we provided annotated screenshots for each phrase.

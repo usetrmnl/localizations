@@ -1,5 +1,5 @@
 # TRMNL localizations
-collection of in-app labels, toast messages, and help messages to make [TRMNL](https://usetrmnl.com) comfortable for everyone.
+collection of in-app content + plugin screen phrases to make [TRMNL](https://usetrmnl.com) comfortable for everyone.
 
 ## How it Works
 
@@ -10,7 +10,7 @@ collection of in-app labels, toast messages, and help messages to make [TRMNL](h
 ## How to Contribute
 
 1. fork this repo
-2. follow [the guides](https://github.com/usetrmnl/localizations/blob/master/GUIDE.md) to localize in-app content
+2. follow [the guide](https://github.com/usetrmnl/localizations/blob/master/GUIDE.md)
 
 ## Credits
 
