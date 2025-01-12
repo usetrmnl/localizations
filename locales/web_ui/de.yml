@@ -203,7 +203,7 @@ de:
       design_system_docs: Dokumentation anzeigen
       dirty_confirm: Es gibt nicht gespeicherte Änderungen. Möchtest Du diese Seite wirklich verlassen?
       edit_markup: Markup bearbeiten
-      edit_markup_for_plugin: %{plugin_setting_name} Markup bearbeiten 
+      edit_markup_for_plugin: "%{plugin_setting_name} Markup bearbeiten"
       edit_markup_please_save_first: Bitte vor dem Bearbeiten des Markups speichern
       edit_markup_without_preview: Markup bearbeiten (ohne Preview)
       error_rendering_markup: Fehler beim Rendern dieses Markups
