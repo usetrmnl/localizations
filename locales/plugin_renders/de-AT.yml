@@ -1,0 +1,21 @@
+de-AT:
+  # namespace to not interfere with other localizations
+  renders:
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    days_left_year:
+      title: Verbleibende Tage dieses Jahr
+      days_passed: Vergangene Tage
+      days_left: Verbleibende Tage
+
+    weather:
+      title: Wetter
+      temperature: Temperatur
+      feels_like: Gefühlte Temperatur
+      humidity: Feuchtigkeit
+      low: Tief
+      high: Hoch
+      uv: UV
+      right_now: Jetzt
+      today: Heute
+      tomorrow: Morgen
