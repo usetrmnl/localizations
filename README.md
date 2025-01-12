@@ -14,14 +14,14 @@ collection of in-app content + plugin screen phrases to make [TRMNL](https://use
 
 ## Credits
 
-- German via @ramdacxp, @philippbosch, @yannicschuller
+- German via @ramdacxp, @philippbosch, @yannicschuller, @MaxDev98, @IngmarStein
 - Spanish (Spain) via @joesfer, @jeff-foster
-- French via @theogiraudet
+- French via @theogiraudet, @MarvinNTA
 - Indonesian via @Adekabang
 - Italian via @danieleb-podero
 - Japanese via Hiroyuki Miyoshi
 - Korean via @i-say-young
 - Portuguese via @danielsitnik
-- Dutch via @huge10, @SjanPjer
+- Dutch via @huge10, @SjanPjer, @gjdenhertog
 - Ukrainian via @veikus, @yankobogdan
 - Chinese via @MarkSong535
