@@ -3,5 +3,5 @@ nl:
   custom_plugins:
 
     # generic words and phrases to make custom plugins more accessible
-    today: today
-    tomorrow: tomorrow
+    today: vandaag
+    tomorrow: morgen

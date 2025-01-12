@@ -4,18 +4,18 @@ nl:
 
     # plugin-specific localizations; alphabetize by plugin's keyname
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Dagen over dit jaar
+      days_passed: Verstreken dagen
+      days_left: Resterende dagen
 
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
+      title: Weer
+      temperature: Temperatuur
+      feels_like: Gevoelstemperatuur
+      humidity: Vochtigheid
+      low: Min
+      high: Max
       uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      right_now: Op dit moment
+      today: Vandaag
+      tomorrow: Morgen
