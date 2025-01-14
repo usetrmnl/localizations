@@ -3,6 +3,7 @@ es-ES:
   # global, logged out, and auth-related
   add: Crear
   add_new: Crear nuevo
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: Tengo una cuenta # signup form cta
   back: Atrás
   back_to_all_blog_posts: Back to all posts
@@ -18,6 +19,7 @@ es-ES:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Crear cuenta de usuario # login form cta
   current_device: Current device
   days: días
@@ -44,6 +46,7 @@ es-ES:
   my_playlist: My Playlist
   new_password: Nueva contraseña
   password: Contraseña
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Restablecer mi contraseña
@@ -52,6 +55,7 @@ es-ES:
   sign_in: Iniciar sesión # login form cta
   sign_up: Registrarse # logged out navigation
   something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
   update: Actualizar
   view: Ver
   welcome: ¡Hola!
@@ -186,6 +190,9 @@ es-ES:
     update:
       error: Error al actualizar el dispositivo
       success: "Configuración del dispositivo %{device} actualizada con éxito"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ es-ES:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Lista de Reproducción
@@ -298,6 +322,8 @@ es-ES:
     delete: Esto borrará completamente la configuración del plugin. Para esconder este plugin de tu dispositivo, elimínalo de tu Lista de Reproducción en su lugar.
     inactive: Inactivo
     no_plugin_settings_found: No se encontraron configuraciones del plugin.
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Mostrar u ocultar este plugin en tu dispositivo
       back_to_plugin: Volver a %{plugin}
@@ -340,6 +366,9 @@ es-ES:
     add_to_playlist:
       success: Plugin added to Playlist
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Upgrading device:"

@@ -3,6 +3,7 @@ en:
   # global, logged out, and auth-related
   add: Add
   add_new: Add new
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: I already have an account # signup form cta
   back: Back
   back_to_all_blog_posts: Back to all posts
@@ -18,6 +19,7 @@ en:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Create an account # login form cta
   current_device: Current device
   days: days
@@ -44,6 +46,7 @@ en:
   my_playlist: My Playlist # default name for a new playlist group
   new_password: New password
   password: Password
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
@@ -52,6 +55,7 @@ en:
   sign_in: Sign in # login form cta
   sign_up: Sign up # logged out navigation
   something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
   update: Update
   view: View
   welcome: Welcome # login form heading
@@ -186,6 +190,9 @@ en:
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ en:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Playlist
@@ -298,6 +322,8 @@ en:
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
     inactive: Inactive
     no_plugin_settings_found: No plugin settings found. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Show or hide this plugin instance on your device
       back_to_plugin: Back to %{plugin}
@@ -340,6 +366,9 @@ en:
     add_to_playlist:
       success: Plugin added to Playlist
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Upgrading device:"

@@ -3,6 +3,7 @@ nl:
   # global, logged out, and auth-related
   add: Toevoegen
   add_new: Nieuwe toevoegen
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: Ik heb al een account # signup form cta
   back: Terug
   back_to_all_blog_posts: Terug naar alle berichten
@@ -18,6 +19,7 @@ nl:
   copy: Kopiëren
   copied_to_clipboard: Gekopieerd!
   copy_to_clipboard: Kopiëren naar klembord
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Een account maken # login form cta
   current_device: Huidig apparaat
   days: dagen
@@ -44,6 +46,7 @@ nl:
   my_playlist: Mijn afspeellijst
   new_password: Nieuw wachtwoord
   password: Wachtwoord
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin niet gevonden
   refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
   reset_password: Reset mijn wachtwoord
@@ -52,6 +55,7 @@ nl:
   sign_in: Inloggen # login form cta
   sign_up: Registreren # logged out navigation
   something_went_wrong: Er is iets misgegaan
+  support: Support # bottom navigation tab, links to help center
   update: Bijwerken
   view: Bekijk
   welcome: Welkom # login form heading
@@ -186,6 +190,9 @@ nl:
     update:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logboeken
@@ -221,6 +228,23 @@ nl:
     no_merge_variables:
       force_refresh: Als je variabelen hebt opgegeven maar deze niet worden gedetecteerd, probeer dan een __geforceerde verversing__.
       no_variables_detected: Geen variabelen gedetecteerd.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Afspeellijst
@@ -298,6 +322,8 @@ nl:
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
     inactive: Inactief
     no_plugin_settings_found: Geen plugininstellingen gevonden. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
       back_to_plugin: Terug naar %{plugin}
@@ -340,6 +366,9 @@ nl:
     add_to_playlist:
       success: Plugin toegevoegd aan afspeellijst
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Apparaat upgraden:"

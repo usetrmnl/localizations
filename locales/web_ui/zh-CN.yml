@@ -3,6 +3,7 @@ zh-CN:
   # global, logged out, and auth-related
   add: 添加
   add_new: 添加新设备
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: 登陆 # signup form cta
   back: 后退
   back_to_all_blog_posts: Back to all posts
@@ -18,6 +19,7 @@ zh-CN:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
   create_an_account: 创建账号 # login form cta
   current_device: Current device
   days: 天
@@ -44,6 +46,7 @@ zh-CN:
   my_playlist: My Playlist
   new_password: 新密码
   password: 密码
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: 重置密码
@@ -52,6 +55,7 @@ zh-CN:
   sign_in: 登陆 # login form cta
   sign_up: 登出 # logged out navigation
   something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
   update: 更新
   view: 查看
   welcome: 欢迎 # login form heading
@@ -186,6 +190,9 @@ zh-CN:
     update:
       error: 设备更新错误
       success: “%{device} 更新成功”
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ zh-CN:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: 播放列表
@@ -298,6 +322,8 @@ zh-CN:
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
     no_plugin_settings_found: 未找到插件信息 # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: 显示/隐藏此插件
       back_to_plugin: 返回 %{plugin}
@@ -340,6 +366,9 @@ zh-CN:
     add_to_playlist:
       success: 插件成功添加到播放列表
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "正在升级设备："

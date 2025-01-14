@@ -3,6 +3,7 @@ uk:
   # global, logged out, and auth-related
   add: Додати
   add_new: Додати новий
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: У мене вже є акаунт # signup form cta
   back: Назад
   back_to_all_blog_posts: Back to all posts
@@ -18,6 +19,7 @@ uk:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Створити акаунт # login form cta
   current_device: Current device
   days: днів # TODO: Check if the declension is correct
@@ -44,6 +46,7 @@ uk:
   my_playlist: My Playlist
   new_password: Новий пароль
   password: Пароль
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Скинути мій пароль
@@ -52,6 +55,7 @@ uk:
   sign_in: Увійти # login form cta # TODO: Check the context
   sign_up: Реєстрація # logged out navigation
   something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
   update: Оновити
   view: Переглянути
   welcome: Ласкаво просимо # login form heading
@@ -186,6 +190,9 @@ uk:
     update:
       error: Помилка оновлення пристрою
       success: "Налаштування пристрою %{device} успішно оновлено"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ uk:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Плейлист
@@ -298,6 +322,8 @@ uk:
     delete: Це повністю видалить налаштування плагіна. Щоб просто приховати цей плагін з вашого пристрою, видаліть його з плейлиста.
     inactive: Неактивний
     no_plugin_settings_found: Налаштування плагінів не знайдено. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Показати чи приховати цей екземпляр плагіна на вашому пристрої
       back_to_plugin: Назад до %{plugin}
@@ -340,6 +366,9 @@ uk:
     add_to_playlist:
       success: Plugin added to Playlist
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Upgrading device:"

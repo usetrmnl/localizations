@@ -1,8 +1,9 @@
 pt-BR:
-  
+
   # global, logged out, and auth-related
   add: Adicionar
   add_new: Adicionar novo
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: Já tenho uma conta # signup form cta
   back: Voltar
   back_to_all_blog_posts: Voltar
@@ -18,6 +19,7 @@ pt-BR:
   copy: Copiar
   copied_to_clipboard: Copiado!
   copy_to_clipboard: Copiar para área de transferência
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Criar uma conta # login form cta
   current_device: Dispositivo atual
   days: dias
@@ -44,6 +46,7 @@ pt-BR:
   my_playlist: Minha Playlist # default name for a new playlist group
   new_password: Nova senha
   password: Senha
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin não encontrado
   refresh_rates_hint: Saiba mais sobre taxas de atualização __aqui__.
   reset_password: Redefinir minha senha
@@ -52,6 +55,7 @@ pt-BR:
   sign_in: Entrar # login form cta
   sign_up: Cadastrar # logged out navigation
   something_went_wrong: Algo deu errado
+  support: Support # bottom navigation tab, links to help center
   update: Atualizar
   view: Visualizar
   welcome: Bem-vindo # login form heading
@@ -83,7 +87,7 @@ pt-BR:
       time_zone_hint: Determina as taxas de atualização e horários de descanso do dispositivo.
       locale: Idioma
       locale_hint: Qual idioma você prefere? __Veja mais__.
-    
+
     # toast messages
     update:
       success: Perfil atualizado com sucesso
@@ -186,6 +190,9 @@ pt-BR:
     update:
       error: Erro ao atualizar dispositivo
       success: "Configurações do dispositivo %{device} atualizadas com sucesso"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ pt-BR:
     no_merge_variables:
       force_refresh: Se suas variáveis não estão sendo detectadas, tente __forçar uma atualização__.
       no_variables_detected: Nenhuma variável detectada.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Playlist
@@ -237,7 +261,7 @@ pt-BR:
       displayed_now: Exibindo agora
       not_displayed_yet: Pendente
       remove_from_playlist: Remover da playlist
-    
+
     # toast messages
     create:
       error: Falha ao atualizar a playlist
@@ -298,6 +322,8 @@ pt-BR:
     delete: Isso irá remover completamente as condfigurações do plugin. Para esconder o plugin do dispositivo, simplesmente remova-o da Playlist.
     inactive: Inativo
     no_plugin_settings_found: Nenhuma configuração encontrada. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Exibir ou esconder este plugin no seu dispositivo
       back_to_plugin: Voltar para %{plugin}
@@ -327,7 +353,7 @@ pt-BR:
       remove_plugin_hint: Remover um plugin também irá removê-lo de sua playlist
       synced: Sincronizado
       visit_docs: Visitar Documentação
-    
+
     # toast messages
     create:
       success: Plugin criado e adicionado à sua
@@ -339,14 +365,17 @@ pt-BR:
       success: Configuração do plugin atualizada com sucesso
     add_to_playlist:
       success: Plugin adicionado à Playlist
-  
+
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Fazendo upgrade do dispositivo:"
       tagline: Adquira plugins customizados e __mais__.
       pay: Pagar # button text; ex "Pay $20"
       error: Dispositivo %{device_name} já possui upgrade, troque para outro dispositivo
-    
+
     # toast messages
     confirm:
       success: A Edição de Desenvolvedor está ativada agora
