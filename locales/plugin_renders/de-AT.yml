@@ -11,7 +11,7 @@ de-AT:
     weather:
       title: Wetter
       temperature: Temperatur
-      feels_like: Gefühlte Temperatur
+      feels_like: Gefühlt
       humidity: Feuchtigkeit
       low: Tief
       high: Hoch
