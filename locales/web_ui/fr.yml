@@ -3,10 +3,10 @@ fr:
   # global, logged out, and auth-related
   add: Ajouter
   add_new: Ajouter nouveau
-  ago: ago # example: "Created 5 mins ago"
+  ago: plutôt # "Created 5 mins ago"
   already_have_account: J'ai déjà un compte # signup form cta
   back: Retour
-  back_to_all_blog_posts: Back to all posts
+  back_to_all_blog_posts: Retour à tous les articles
   blog: Blog
   buy_now: Acheter maintenant
   cancel: Annuler
@@ -19,22 +19,22 @@ fr:
   copy: Copier
   copied_to_clipboard: Copié !
   copy_to_clipboard: Copier dans le presse-papiers
-  created: Created # example: "Created 5 mins ago"
+  created: Créé
   create_an_account: Créer un compte # login form cta
-  current_device: Current device
+  current_device: Appareil actuel
   days: jours
   delete: Supprimer
   developer_edition_required: Édition développeur nécessaire pour activer cette fonctionnalité.
   device_id: ID de l'appareil
   edit: Éditer
   email_address: Adresse email
-  fetching: Fetching
+  fetching: Chargement en cours
   first_name: Prénom
   forgot_password: J'ai oublié mon mot de passe # login form link
   forgot_password_title: Rebelote # heading on /password/new
   get_started: Commençons !
   identify: S'identifier
-  integrations: Integrations
+  integrations: Intégrations
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
@@ -43,10 +43,10 @@ fr:
   log_out: Se déconnecter
   minimum_characters: caractères minimums # ex: 8 characters minimum
   mins: mins # 'minutes' abbreviation
-  my_playlist: Ma Playlist
+  my_playlist: Ma playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Veuillez patienter...
   plugin_not_found: Extension introuvable
   refresh_rates_hint: Apprendre comment les taux de rafraîchissement fonctionnent __ici__.
   reset_password: Réinitialiser mon mot de passe
@@ -79,12 +79,12 @@ fr:
       password_hint: Utilisé pour protéger votre compte TRMNL.
       enable_2fa: Activer l'A2F ?
       enable_2fa_hint: __Cliquer ici__ pour activer l'OTP.
-      disable_2fa: Activer A2F ?
+      disable_2fa: Activer l'A2F ?
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       session: Session
       session_hint: Vous êtes connecté·e en tant que %{user}
       time_zone: Fuseau horaire
-      time_zone_hint: Détermine les taux de rafraichissement et le temps de veille de l'appareil.
+      time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
       locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
 
@@ -96,7 +96,7 @@ fr:
       title: Tableau de bord
       morning_salutation: Bonjour
       afternoon_salutation: Bonjour
-      evening_salutation: Bon soir
+      evening_salutation: Bonsoir
       last_7_days: 7 derniers jours
       last_30_days: 30 derniers jours
       last_90_days: 90 derniers jours
@@ -191,8 +191,8 @@ fr:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Trop de tentatives, veuillez patienter et réessayer
+    invoice_not_found: Facture introuvable
   logs:
     index:
       title: Logs
@@ -205,14 +205,14 @@ fr:
       time: Heure
   markups:
     form:
-      back_to_plugin_settings: Retour au paramètres de l'extension
+      back_to_plugin_settings: Retour aux paramètres de l'extension
       design_system: Utilisez notre système de design natif
-      design_system_docs: Documentation Système de Design
+      design_system_docs: Documentation système de design
       dirty_confirm: Vous avez des modifications non enregistrées. Êtes-vous sûr·e de vouloir quitter cette page ?
-      edit_markup: Modifier le Balisage
+      edit_markup: Modifier le balisage
       edit_markup_for_plugin: Modifier le balisage pour %{plugin_setting_name}
       edit_markup_please_save_first: Enregistrez avant de modifier le balisage
-      edit_markup_without_preview: Modifier le Balisage (sans aperçu)
+      edit_markup_without_preview: Modifier le balisage (sans aperçu)
       error_rendering_markup: Erreur de rendu du balisage
       fix_indentation: Corriger l'indentation
       live_preview: Aperçu en direct
@@ -222,7 +222,7 @@ fr:
       quickstart_use_this_example: Utiliser cet exemple
       revert: Annuler
       revert_confirm: Êtes-vous sûr·e de vouloir annuler ? Toutes modifications non enregistrées seront perdues.
-      save_changes: Enregistrer les Modifications (⌘﹢S)
+      save_changes: Enregistrer les modifications (⌘﹢S)
     merge_variables:
       your_variables: Vos variables
     no_merge_variables:
@@ -230,29 +230,29 @@ fr:
       no_variables_detected: Aucune variable détectée.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: A2F désactivée
+      invalid_otp: Code OTP invalide
+      invalid_password: Mot de passe invalide
+      invalid_otp_and_password: Code OTP et mot de passe invalides
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Saisissez le code OTP
+      submit: Vérifier et activer
+      already_enabled: L'A2F est déjà activée
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: A2F activée
+      error: Code OTP invalide
     verify_otp:
-      verify: Verify
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: Vérifier
+      success: A2F validée avec succès
+      error: Code OTP invalide
   playlists:
     index:
       title: Playlist
       tagline: Choisir ce qui est affiché
-      add_a_group: Ajouter un Groupe
-      add_a_plugin: Ajouter une Extension
+      add_a_group: Ajouter un groupe
+      add_a_plugin: Ajouter une extension
       add_first_device_cta: Commencez par __ajouter__ votre premier appareil TRMNL !
-      add_to_playlist: Ajouter à la Playlist
+      add_to_playlist: Ajouter à la playlist
       create_first_playlist_cta: Créez votre playlist après avoir __connecté__ votre première extension !
       display_period_from: Afficher entre
       display_period_to: et
@@ -300,13 +300,13 @@ fr:
       icon_hint: 40px*40px recommandé
       installation_url: Installation URL
       installation_url_hint: En apprendre plus sur le processus d'installation __ici__.
-      installation_success_webhook_url: URL du Webhook du succès de l'installation
+      installation_success_webhook_url: URL du webhook du succès de l'installation
       knowledge_base_url: URL de la base de connaissance
       management_url: URL de gestion de l'extension
       management_url_hint: En apprendre plus sur le processus de gestion __ici__.
-      markup_url: URL du balisage de l éxtension
+      markup_url: URL du balisage de l'extension
       markup_url_hint: En apprendre plus sur la génération d'écran __ici__.
-      uninstallation_webhook_url: URL du Webhook de désinstallation
+      uninstallation_webhook_url: URL du webhook de désinstallation
     edit:
       title: Éditer l'extension
       tagline: Mettre à jour les détails de votre extension.
@@ -322,7 +322,7 @@ fr:
     delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
     no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Affiche ou masque cette instance du plugin de l'appareil
@@ -331,7 +331,7 @@ fr:
       connect_with: Se connecter avec %{plugin}
       disconnect_account: Déconnecter le compte
       manage_plugin: Configurer %{plugin}
-      force_refresh: Forcer le rafraichissement
+      force_refresh: Forcer le rafraîchissement
       force_refresh_hint: Cette fonctionnalité est conçue pour du test seulement - prière de ne pas en abuser.
       force_refresh_click_here: Cliquez ici
       force_refresh_click_here_hint: pour générer un nouvel écran immédiatement
@@ -346,9 +346,9 @@ fr:
       plugin_uuid: UUID de l'extension
       plugin_uuid_hint: Utilisez ceci pour faire des requêtes à l'API Webhook.
       preview: Prévisualisation - votre appareil affichera les données actuelles
-      refresh_rate: Taux de rafraichissement
+      refresh_rate: Taux de rafraîchissement
       refresh_rate_hint: Définit la fréquence à laquelle cette instance de l'extension récupérera les nouvelles données
-      refreshed: Rafraichi
+      refreshed: Rafraîchi
       remove_plugin: Retirer l'extension
       remove_plugin_hint: Retirer une extension la retirera aussi de votre playlist
       synced: Synchronisé
@@ -368,14 +368,14 @@ fr:
 
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Demande reçue, vérifiez votre boîte de réception
   upgrade:
     index:
       title: "Mettre à niveau l'appareil:"
       tagline: Débloquez des extensions personnalisées et __plus__.
       pay: Payer # button text; ex "Pay $20"
-      error: Device %{device_name} is already upgraded, switch to another device
+      error: L'appareil %{device_name} est déjà mis à niveau, changez d'appareil
 
     # toast messages
     confirm:
-      success: Developer edition add-on is now enabled
+      success: Le complément édition développeur est maintenant activé
