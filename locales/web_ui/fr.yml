@@ -3,6 +3,7 @@ fr:
   # global, logged out, and auth-related
   add: Ajouter
   add_new: Ajouter nouveau
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: J'ai déjà un compte # signup form cta
   back: Retour
   back_to_all_blog_posts: Back to all posts
@@ -18,6 +19,7 @@ fr:
   copy: Copier
   copied_to_clipboard: Copié !
   copy_to_clipboard: Copier dans le presse-papiers
+  created: Created # example: "Created 5 mins ago"
   create_an_account: Créer un compte # login form cta
   current_device: Current device
   days: jours
@@ -44,6 +46,7 @@ fr:
   my_playlist: Ma Playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Extension introuvable
   refresh_rates_hint: Apprendre comment les taux de rafraîchissement fonctionnent __ici__.
   reset_password: Réinitialiser mon mot de passe
@@ -52,6 +55,7 @@ fr:
   sign_in: S'identifier # login form cta
   sign_up: S'inscrire # logged out navigation
   something_went_wrong: Une erreur est survenue
+  support: Support # bottom navigation tab, links to help center
   update: Mise à jour
   view: Vue
   welcome: Bienvenue # login form heading
@@ -186,6 +190,9 @@ fr:
     update:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ fr:
     no_merge_variables:
       force_refresh: Si vous avez fourni des variables mais qu'elles ne sont pas détectées, essayer un __rafraîchissement forcé__.
       no_variables_detected: Aucune variable détectée.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: Playlist
@@ -298,6 +322,8 @@ fr:
     delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
     no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Affiche ou masque cette instance du plugin de l'appareil
       back_to_plugin: Retour à %{plugin}
@@ -340,6 +366,9 @@ fr:
     add_to_playlist:
       success: Extension ajoutée à la playlist
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "Mettre à niveau l'appareil:"

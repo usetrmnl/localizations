@@ -3,6 +3,7 @@ ko:
   # global, logged out, and auth-related
   add: 추가하기
   add_new: 새로 추가하기
+  ago: ago # example: "Created 5 mins ago"
   already_have_account: 이미 계정이 있음 # signup form cta
   back: 뒤로가기
   back_to_all_blog_posts: Back to all posts
@@ -18,8 +19,9 @@ ko:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
   create_an_account: 계정 만들기 # login form cta
-  current_device: Current device
+  current_device: 현재 기기
   days: 일
   delete: 삭제하기
   developer_edition_required: Developer edition is required to enable this feature.
@@ -44,6 +46,7 @@ ko:
   my_playlist: My Playlist
   new_password: 새 비밀번호
   password: 비밀번호
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: 비밀번호 재설정
@@ -52,6 +55,7 @@ ko:
   sign_in: 로그인하기 # login form cta
   sign_up: 가입하기 # logged out navigation
   something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
   update: 새로 저장
   view: 보기
   welcome: 환영합니다 # login form heading
@@ -186,6 +190,9 @@ ko:
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정이 성공적으로 업데이트 되었습니다"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
@@ -221,6 +228,23 @@ ko:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
   playlists:
     index:
       title: 플레이리스트
@@ -298,6 +322,8 @@ ko:
     delete: 플러그인의 설정을 완전히 지웁니다. 단순히 디바이스에서 해당 플러그인을 숨기고 싶다면, 플레이리스트에서 삭제하세요.
     inactive: 활동정지
     no_plugin_settings_found: 플러그인이 없습니다. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: 당신의 기기에 이 플러그인 인스턴스 숨기거나 보이기
       back_to_plugin: "%{plugin}으로 돌아가기"
@@ -340,6 +366,9 @@ ko:
     add_to_playlist:
       success: Plugin added to Playlist
 
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
   upgrade:
     index:
       title: "기기 업그레이드:"
