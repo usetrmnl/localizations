@@ -1,0 +1,21 @@
+he:
+  # namespace to not interfere with other localizations
+  renders:
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    days_left_year:
+      title: ימים שנותרו עד לסוף השנה
+      days_passed: ימים שחלפו
+      days_left: ימים שנותרו
+
+    weather:
+      title: מזג אויר
+      temperature: טמפרטורה
+      feels_like: תחושה 
+      humidity: לחות
+      low: נמוכה
+      high: גבוהה
+      uv: UV אינדקס קרני
+      right_now: כעת
+      today: היום
+      tomorrow: מחר
