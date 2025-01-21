@@ -1,0 +1,84 @@
+da:
+  add: Tilføj
+  add_new: Tilføj ny
+  ago: siden
+  already_have_account: Jeg har allerede en konto
+  back: Tilbage
+  back_to_all_blog_posts: Tilbage til alle indlæg
+  blog: Blog
+  buy_now: Køb nu
+  cancel: Annuller
+  change_password: Skift adgangskode
+  charge_level: Opladningsniveau
+  charged: opladet
+  close: Luk
+  confirm_change_password: Bekræft ændring af adgangskode
+  confirm_password: Bekræft ny adgangskode
+  copy: Kopier
+  copied_to_clipboard: Kopieret!
+  copy_to_clipboard: Kopier til udklipsholder
+  created: Oprettet
+  create_an_account: Opret en konto
+  current_device: Nuværende enhed
+  days: dage
+  delete: Slet
+  developer_edition_required: Udviklerudgave kræves for at aktivere denne funktion.
+  device_id: Enheds-ID
+  edit: Indstillinger
+  email_address: Mailadresse
+  fetching: Henter
+  first_name: Fornavn
+  forgot_password: Jeg har glemt min adgangskode
+  forgot_password_title: Her går vi igen
+  get_started: Lad os få dig i gang!
+  identify: Identificer
+  integrations: Integrationer
+  keep_me_signed_in: Hold mig logget ind
+  knowledge_base: Vidensbase
+  last_name: Efternavn
+  loading: Indlæser
+  login: Log ind
+  log_out: Log ud
+  minimum_characters: minimum tegn
+  mins: min
+  my_playlist: Min playliste
+  new_password: Ny adgangskode
+  password: Adgangskode
+  please_wait: Vent venligst...
+  plugin_not_found: Plugin ikke fundet
+  refresh_rates_hint: Lær hvordan opdateringshastigheder fungerer __her__.
+  reset_password: Nulstil min adgangskode
+  save: Gem
+  section: Sektion
+  sign_in: Log ind
+  sign_up: Tilmeld
+  something_went_wrong: Noget gik galt
+  support: Support
+  update: Opdater
+  view: Vis
+  welcome: Velkommen
+  account:
+    index:
+      title: Konto
+      tagline: Administrer dine kontoindstillinger
+      email_address: Mailadresse
+      refer_and_earn: Henvis og tjen
+      refer_and_earn_hint: Giv gaven af TRMNL med en personlig kupon. Tjen pr. brug, betalt månedligt.
+      refer_and_earn_redemptions: Indløsninger
+      refer_and_earn_request_code: Anmod om en kode
+      device_invoice: Enhedsfaktura
+      device_invoice_label: Download kommercielle dokumenter til din revisor eller (mærkelige) PDF-samling.
+      device_invoice_hint: Find dette på din pakkesporingsside eller forsendelsesmeddelelses-e-mail.
+      first_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
+      last_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
+      password_hint: Bruges til at beskytte din TRMNL-konto.
+      enable_2fa: Aktivér 2FA?
+      enable_2fa_hint: __Klik her__ for at aktivere OTP.
+      disable_2fa: Deaktiver 2FA
+      disable_2fa_hint: Angiv gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
+      session: Session
+      session_hint: Du er logget ind som % {user}
+      time_zone: Tidszone
+      time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
+      locale: Lokalitet
+      locale_hint: Hvilket sprog og lokalisering foretrækker du?
