@@ -221,7 +221,7 @@ da:
         merge_variables:
           your_variables: Dine variabler
         no_merge_variables:
-          force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __force refresh__.
+          force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __tvunget opdatering__.
           no_variables_detected: Ingen variabler registreret.
       mfa:
         disable_otp:
