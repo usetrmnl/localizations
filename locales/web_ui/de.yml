@@ -149,6 +149,7 @@ de:
       ota_enabled_hint: Neue Firmware automatisch installieren. Deaktiviere diese Option, um deine eigene Firmware zu verwenden.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate anpassen, um die Fokussierung auf angezeigte Inhalte und die Batterielaufzeit zu verbessern.
+      sleep_screen: Sleep Screen
       special_function: Sonderfunktion
       special_function_hint: Richte eine Doppelklickfunktion für die Taste auf der Rückseite deines Geräts ein.
       special_function_learn_more: Erfahre mehr zuden Sonderfunktionen __hier__.

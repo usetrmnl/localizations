@@ -149,6 +149,7 @@ it:
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
+      sleep_screen: Sleep Screen
       special_function: Funzione Speciale
       special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.

@@ -149,6 +149,7 @@ id:
       ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
       sleep_mode: Mode Tidur
       sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
+      sleep_screen: Sleep Screen
       special_function: Fungsi Khusus
       special_function_hint: Atur fitur klik ganda untuk tombol di belakang perangkat Anda.
       special_function_learn_more: Pelajari lebih lanjut tentang fungsi khusus __di sini__.

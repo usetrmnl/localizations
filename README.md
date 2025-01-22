@@ -25,3 +25,4 @@ collection of in-app content + plugin screen phrases to make [TRMNL](https://use
 - Dutch via @huge10, @SjanPjer, @gjdenhertog
 - Ukrainian via @veikus, @yankobogdan
 - Chinese via @MarkSong535
+- Hebrew via @itay99988
