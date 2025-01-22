@@ -149,6 +149,7 @@ nl:
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
+      sleep_screen: Sleep Screen
       special_function: Speciale functie
       special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
       special_function_learn_more: Lees __hier__ meer over speciale functies.

@@ -149,6 +149,7 @@ es-ES:
       ota_enabled_hint: Instala automáticamente nuevo firmware. Desactiva para usar tu propio firmware.
       sleep_mode: Modo de Suspensión
       sleep_mode_hint: Ajusta tu tasa de refresco para optimizar el enfoque y la duración de la batería.
+      sleep_screen: Sleep Screen
       special_function: Función Especial
       special_function_hint: Configura una función de doble clic para el botón en la parte posterior de tu dispositivo.
       special_function_learn_more: Aprende más sobre funciones especiales __aquí__.

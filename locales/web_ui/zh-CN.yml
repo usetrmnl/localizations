@@ -149,6 +149,7 @@ zh-CN:
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
+      sleep_screen: Sleep Screen
       special_function: 双击背部按键
       special_function_hint: 设置设备背部按键的双击功能
       special_function_learn_more: 点击__此处__以了解更多
