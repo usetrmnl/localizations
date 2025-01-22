@@ -86,7 +86,7 @@ da:
       time_zone: Tidszone
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
-      locale_hint: Hvilket sprog og lokalisering foretrækker du?
+      locale_hint: Hvilket sprog og lokalisering foretrækker du? __Klik her__.
 
     # toast messages
     update:
