@@ -1,0 +1,21 @@
+zh-HK:
+  # namespace to not interfere with other localizations
+  renders:
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    days_left_year:
+      title: 今年剩餘日數
+      days_passed: 經過日數
+      days_left: 剩餘日數
+
+    weather:
+      title: 天氣
+      temperature: 氣溫
+      feels_like: 體感溫度
+      humidity: 濕度
+      low: 最低
+      high: 最高
+      uv: 紫外線
+      right_now: 即時
+      today: 今日
+      tomorrow: 明日
