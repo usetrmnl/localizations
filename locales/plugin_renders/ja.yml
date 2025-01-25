@@ -4,18 +4,18 @@ ja:
 
     # plugin-specific localizations; alphabetize by plugin's keyname
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: 今年の残り日数
+      days_passed: 経過日数
+      days_left: 残り日数
 
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
-      uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      title: 天気
+      temperature: 温度
+      feels_like: 体感温度
+      humidity: 湿度
+      low: 最低
+      high: 最高
+      uv: UV指数
+      right_now: 現在
+      today: 今日
+      tomorrow: 明日
