@@ -149,7 +149,7 @@ fr:
       ota_enabled_hint: Installer automatiquement le nouveau firmware. Désactivez si vous souhaitez utiliser votre propre firmware.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
-      sleep_screen: Sleep Screen
+      sleep_screen: Écran de veille
       special_function: Fonction spéciale
       special_function_hint: Définissez une fonction de double-clic pour le bouton situé à l'arrière de votre appareil.
       special_function_learn_more: En apprendre plus à propos des fonctions spéciales __ici__.
