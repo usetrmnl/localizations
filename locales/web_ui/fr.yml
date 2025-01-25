@@ -3,10 +3,10 @@ fr:
   # global, logged out, and auth-related
   add: Ajouter
   add_new: Ajouter nouveau
-  ago: ago # example: "Created 5 mins ago"
+  ago: # example: "Created 5 mins ago"
   already_have_account: J'ai déjà un compte # signup form cta
   back: Retour
-  back_to_all_blog_posts: Back to all posts
+  back_to_all_blog_posts: Retour aux articles
   blog: Blog
   buy_now: Acheter maintenant
   cancel: Annuler
@@ -19,22 +19,22 @@ fr:
   copy: Copier
   copied_to_clipboard: Copié !
   copy_to_clipboard: Copier dans le presse-papiers
-  created: Created # example: "Created 5 mins ago"
+  created: Créé il y a # example: "Created 5 mins ago"
   create_an_account: Créer un compte # login form cta
-  current_device: Current device
+  current_device: Appareil actuel
   days: jours
   delete: Supprimer
   developer_edition_required: Édition développeur nécessaire pour activer cette fonctionnalité.
   device_id: ID de l'appareil
   edit: Éditer
   email_address: Adresse email
-  fetching: Fetching
+  fetching: Récupération
   first_name: Prénom
   forgot_password: J'ai oublié mon mot de passe # login form link
   forgot_password_title: Rebelote # heading on /password/new
   get_started: Commençons !
   identify: S'identifier
-  integrations: Integrations
+  integrations: Intégrations
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
@@ -46,11 +46,11 @@ fr:
   my_playlist: Ma Playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Veuillez patienter... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Extension introuvable
   refresh_rates_hint: Apprendre comment les taux de rafraîchissement fonctionnent __ici__.
   reset_password: Réinitialiser mon mot de passe
-  save: Sauvegarder
+  save: Enregistrer
   section: Section
   sign_in: S'identifier # login form cta
   sign_up: S'inscrire # logged out navigation
@@ -71,7 +71,7 @@ fr:
       refer_and_earn_redemptions: Remboursements # how many times this coupon has been used
       refer_and_earn_request_code: Demander un code
       device_invoice: Facture de l'appareil
-      device_invoice_label: Télécharger les documents commerciaux pour votre comptable ou votre (bizarre) collection de PDF.
+      device_invoice_label: Télécharger les documents commerciaux pour votre comptable ou votre collection (bizarre) de PDF.
       device_invoice_hint: Retrouvez ce numéro sur la page de suivi de votre colis ou dans l'e-mail de notification de l'envoi.
       email_address_hint: Utilisée pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
@@ -79,8 +79,8 @@ fr:
       password_hint: Utilisé pour protéger votre compte TRMNL.
       enable_2fa: Activer l'A2F ?
       enable_2fa_hint: __Cliquer ici__ pour activer l'OTP.
-      disable_2fa: Activer A2F ?
-      disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
+      disable_2fa: Désactiver l'A2F ?
+      disable_2fa_hint: Fournissez un code OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       session: Session
       session_hint: Vous êtes connecté·e en tant que %{user}
       time_zone: Fuseau horaire
@@ -131,7 +131,7 @@ fr:
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise.
       developer_perks: Avantages pour les développeurs # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
+      developer_perks_hint: Les options ci-dessous requièrent l'__extension payante pour développeur__.
       device_credentials: Identifiants de l'appareil
       device_credentials_hint: Voyez ce que vous pouvez faire avec ces identifiants __ici__
       device_name: Nom de l'appareil
@@ -149,7 +149,7 @@ fr:
       ota_enabled_hint: Installer automatiquement le nouveau firmware. Désactivez si vous souhaitez utiliser votre propre firmware.
       sleep_mode: Mode veille
       sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
-      sleep_screen: Sleep Screen
+      sleep_screen: Écran de veille
       special_function: Fonction spéciale
       special_function_hint: Définissez une fonction de double-clic pour le bouton situé à l'arrière de votre appareil.
       special_function_learn_more: En apprendre plus à propos des fonctions spéciales __ici__.
@@ -192,8 +192,8 @@ fr:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Trop de tentatives, veuillez réessayer ultérieurement 
+    invoice_not_found: Facture introuvable
   logs:
     index:
       title: Logs
@@ -231,21 +231,21 @@ fr:
       no_variables_detected: Aucune variable détectée.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: A2F désactivée
+      invalid_otp: Code OTP invalide
+      invalid_password: Mot de passe invalide
+      invalid_otp_and_password: Code OTP et mot de passe invalides
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Entrez un code OTP
+      submit: Vérifier et activer
+      already_enabled: L'A2F est déjà activée
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: A2F activée
+      error: Code OTP invalide
     verify_otp:
-      verify: Verify
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: Vérifier
+      success: A2F réussie
+      error: Code OTP invalide
   playlists:
     index:
       title: Playlist
@@ -323,8 +323,8 @@ fr:
     delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
     no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    refreshing_now_please_wait: Rafraichissement en cours, rechargez cette page dans quelques secondes.
+    reset_credentials: "Réinitialisation de l'identifiant pour %{plugin_name} réussie"
     form:
       active_hint: Affiche ou masque cette instance du plugin de l'appareil
       back_to_plugin: Retour à %{plugin}
@@ -369,14 +369,14 @@ fr:
 
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Demande reçue, vérifiez votre boîte mail
   upgrade:
     index:
       title: "Mettre à niveau l'appareil:"
       tagline: Débloquez des extensions personnalisées et __plus__.
       pay: Payer # button text; ex "Pay $20"
-      error: Device %{device_name} is already upgraded, switch to another device
+      error: Appareil %{device_name} a déjà été mis à niveau, choisissez un autre appareil
 
     # toast messages
     confirm:
-      success: Developer edition add-on is now enabled
+      success: L'extension pour développeur a été activée
