@@ -48,7 +48,7 @@ zh-HK:
   password: 密碼
   please_wait: 請稍候⋯ # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: 找不到外掛
-  refresh_rates_hint: __按此__了解重新整理頻率如何運作。
+  refresh_rates_hint: "__按此__了解重新整理頻率如何運作。"
   reset_password: 重設密碼
   save: 儲存
   section: 章節
@@ -78,7 +78,7 @@ zh-HK:
       last_name_hint: 可讓TRMNL介面更舒適。
       password_hint: 用於保護你的TRMNL帳戶。
       enable_2fa: 啟用雙重驗證(2FA)？
-      enable_2fa_hint: __按此__啟用OTP。
+      enable_2fa_hint: "__按此__啟用OTP。"
       disable_2fa: 停用雙重驗證(2FA)
       disable_2fa_hint: 如要停用，請提供有效的單次密碼(OTP)，並在上方輸入現時密碼。
       session: 登入狀態
@@ -133,7 +133,7 @@ zh-HK:
       developer_perks: 開發者福利 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 以下選項需要購買「__開發者版本__」。.
       device_credentials: 裝置認證
-      device_credentials_hint: __按此__了解如何使用裝置認證
+      device_credentials_hint: "__按此__了解如何使用裝置認證"
       device_name: 裝置名稱
       device_name_hint: 此名稱可讓TRMNL介面更舒適
       edit_device: 編輯裝置
@@ -152,7 +152,7 @@ zh-HK:
       sleep_screen: 睡眠畫面
       special_function: 特別功能
       special_function_hint: 按兩下裝置背面的按鈕時，會執行特別功能。
-      special_function_learn_more: __按此__了解特別功能。
+      special_function_learn_more: "__按此__了解特別功能。"
       unlink: 取消連結
       unlink_device: 取消連結裝置
       unlink_device_hint: 如要安全地轉售或轉讓TRMNL裝置，請先取消連結。
@@ -300,13 +300,13 @@ zh-HK:
       icon: 圖示
       icon_hint: 建議使用40×40像素
       installation_url: 安裝網址
-      installation_url_hint: __按此__了解安裝流程。
+      installation_url_hint: "__按此__了解安裝流程。"
       installation_success_webhook_url: 安裝成功Webhook網址
       knowledge_base_url: 知識庫網址
       management_url: 管理網址
-      management_url_hint: __按此__了解管理流程。
+      management_url_hint: "__按此__了解管理流程。"
       markup_url: 標記碼(Markup)網址
-      markup_url_hint: __按此__了解畫面生成方式。
+      markup_url_hint: "__按此__了解畫面生成方式。"
       uninstallation_webhook_url: 解除安裝Webhook網址
     edit:
       title: 編輯外掛

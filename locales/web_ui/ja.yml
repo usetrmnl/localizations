@@ -78,7 +78,7 @@ ja:
       last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       password_hint: TRMNLアカウントを保護するために使用します。
       enable_2fa: 2段階認証を有効にする
-      enable_2fa_hint: __こちらをクリック__してOTPを有効にします。
+      enable_2fa_hint: "__こちらをクリック__してOTPを有効にします。"
       disable_2fa: 2段階認証を無効にする
       disable_2fa_hint: この機能を無効にするには、上記の有効なOTPと現在のパスワードを入力してください。
       session: セッション
