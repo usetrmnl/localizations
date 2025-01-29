@@ -19,10 +19,11 @@ collection of in-app content + plugin screen phrases to make [TRMNL](https://use
 - French via @theogiraudet, @MarvinNTA
 - Indonesian via @Adekabang
 - Italian via @danieleb-podero
-- Japanese via Hiroyuki Miyoshi
+- Japanese via Hiroyuki Miyoshi, @liahsheep
 - Korean via @i-say-young
 - Portuguese via @danielsitnik
 - Dutch via @huge10, @SjanPjer, @gjdenhertog
 - Ukrainian via @veikus, @yankobogdan
-- Chinese via @MarkSong535
+- Chinese (Simplified) via @MarkSong535
+- Chinese (Hong Kong) via @liahsheep
 - Hebrew via @itay99988
