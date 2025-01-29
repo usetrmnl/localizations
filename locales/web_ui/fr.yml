@@ -78,7 +78,7 @@ fr:
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.
       password_hint: Utilisé pour protéger votre compte TRMNL.
       enable_2fa: Activer l'A2F ?
-      enable_2fa_hint: __Cliquer ici__ pour activer l'OTP.
+      enable_2fa_hint: "__Cliquer ici__ pour activer l'OTP."
       disable_2fa: Activer l'A2F ?
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       session: Session
